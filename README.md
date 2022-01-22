@@ -11,4 +11,4 @@ Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt do
 ### Eigen scripts en programma's
 Sla je als apparte bestanden op in deze repository. 
 ## Afbeeldingen toevoegen
-![En dit de afbeelding in onze image map](images/PiJuice-Updated-3_1024x.jpg)
+![En dit de afbeelding in onze image map](Images/PiJuice-Updated-3_1024x.jpg)
