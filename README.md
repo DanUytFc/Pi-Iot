@@ -10,7 +10,7 @@ Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgel
 
 Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde ip camera te bereiken. 
 
-Op Youtube is er een raspberry Pi project *How to Detect Powe & Internet Outages With My Raspberry Pi Python Project"*.
+Op Youtube is er een video over *How to Detect Powe & Internet Outages With My Raspberry Pi Python Project"*.
 Noteer hier uw inspiratie, hardware en software bronnen. 
 ## Hardware
 Noteer hier welke hardware je gebruikt. 
