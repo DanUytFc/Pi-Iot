@@ -34,5 +34,4 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 ![PiJuice HAT](Images/PiJuice_HAT.png)
 
 3. 4G/3G/2G/GSM/GPRS/GNSS HAT voor Raspberry Pi - LTE CAT4
-
 ![Raspberry Pi - LTE](Images/Raspberry_Pi_LTE.png)
