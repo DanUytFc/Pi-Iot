@@ -10,12 +10,11 @@ Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgel
 
 Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde ip camera te bereiken. 
 
-Op Youtube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) en GitHub python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/).
-
-Als hardware zal er de Raspberry Pi 2 Model B Rev 1.1 gebruikt worden.
-![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
+Op Youtube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) en GitHub Python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/).
 ## Hardware
-Noteer hier welke hardware je gebruikt. 
+Als hardware zal er de Raspberry Pi 2 Model B Rev 1.1 gebruikt worden.
+
+![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
 ## Software
 Noteer hier welke software je gebruikt. 
 Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd. 
