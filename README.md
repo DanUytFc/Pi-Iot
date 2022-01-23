@@ -1,4 +1,4 @@
-# Raspberry-Pi-Cursus-Project
+# RPI-Gone-Fishing
 ## Beschrijving
 Bewaking van een hoofdverblijfplaats of buitenverblijf is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
 
