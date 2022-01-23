@@ -17,6 +17,7 @@ Aangezien hardware levering een probleem is in deze pandemie periode zal ik teru
 Zodra hardware terug beschikbaar is kunnen volgende uitbreidingen overwogen worden: 
 1. [Uninterruptible Power Supply(UPS) HAT](Images/PiJuice_HAT.png) om 5V voeding tijdelijk te voorzien indien de netspanning weggevallen is.
 2. [4G/3G/2G/GSM/GPRS/GNSS HAT](Images/Raspberry_PI_LTE.png) om tijdelijk over te schakelen naar mobiel data GSM netwerk indien internet via vast ethernet weggevallen is. 
+* gg
 ## Software
 Als basis voor de software zal de GitHub Python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie project gebruikt worden. 
 
