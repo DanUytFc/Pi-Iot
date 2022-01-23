@@ -23,7 +23,7 @@ Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt do
 ### Eigen scripts en programma's
 Sla je als apparte bestanden op in deze repository. 
 ## Afbeeldingen toevoegen
-1 ethernet
+1.  Raspberry Pi 2 Model B Rev 1.1
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
 ![En dit de afbeelding in onze image map](Images/PiJuice-Updated-3_1024x.jpg)
 ![En dit de afbeelding in onze image map](Images/dfsgxv.png)
