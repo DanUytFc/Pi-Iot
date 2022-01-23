@@ -10,7 +10,7 @@ Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgel
 
 Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde ip camera te bereiken. 
 
-Op Youtube is er een video over ***"How to Detect Power & Internet Outages With My Raspberry Pi Python Project"***.
+Op Youtube is er een video over ***"How to Detect Power & Internet Outages With My Raspberry Pi Python Project"***. [Youtube](https://https://www.youtube.com/watch?v=Tj0mNO3ZDao/)
 
 Noteer hier uw inspiratie, hardware en software bronnen. 
 ## Hardware
