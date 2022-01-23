@@ -1,6 +1,8 @@
 # Raspberry-Pi-Cursus-Project
 ## Beschrijving
-Netspanning en internet netwerk monitoring. 
+Bewaking van de hoofdverblijfplaats of buitenverblijf is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
+Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstend) op deze locaties. 
+Dit project implementeerd een monitoring van netspanning en internet gebaseerd op een Raspberry Pi. 
 ## Bronnen
 Noteer hier uw inspiratie, hardware en software bronnen. 
 ## Hardware
