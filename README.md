@@ -13,6 +13,8 @@ Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor
 Op Youtube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) en GitHub python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/).
 
 Als hardware zal er de Raspberry Pi 2 Model B Rev 1.1 gebruikt worden.
+![En dit de afbeelding in onze image map](Images/PiJuice-Updated-3_1024x.jpg)
+
 ## Hardware
 Noteer hier welke hardware je gebruikt. 
 ## Software
