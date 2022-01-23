@@ -1,6 +1,6 @@
 # Raspberry-Pi-Cursus-Project
 ## Beschrijving
-Bewaking van de hoofdverblijfplaats of buitenverblijf is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
+Bewaking van een hoofdverblijfplaats of buitenverblijf is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
 
 Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
 
