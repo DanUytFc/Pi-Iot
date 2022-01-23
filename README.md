@@ -17,7 +17,7 @@ Aangezien hardware levering een probleem is in deze pandemie periode zal ik teru
 ## Software
 Als basis voor de software zal de GitHub Python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie project gebruikt worden. 
 
-Deze zal geimplementeerd worden op de meest recente Bullseye Raspberry Pi OS. 
+Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.*** 
 
 *Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.*
 ### Eigen scripts en programma's
