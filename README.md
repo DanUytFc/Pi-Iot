@@ -30,4 +30,3 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 2. PiJuice HAT - A portable Power Platform for Every Raspberry Pi
 
 ![PiJuice HAT](Images/PiJuice HAT.png)
-
