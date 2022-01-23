@@ -24,12 +24,8 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 *Sla je als apparte bestanden op in deze repository.*
 ## Afbeeldingen toevoegen
 1.  Raspberry Pi 2 Model B Rev 1.1:
-
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
-
 2. PiJuice HAT - A portable Power Platform for Every Raspberry Pi
 ![PiJuice HAT](Images/PiJuice-Updated-1_1024x.jpg)
-
 3.TBD
-
 ![En dit de afbeelding in onze image map](Images/dfsgxv.png)
