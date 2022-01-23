@@ -34,7 +34,12 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 
 ![PiJuice HAT](Images/PiJuice_HAT.png)
 
-3. 4G/3G/2G/GSM/GPRS/GNSS HAT voor Raspberry Pi - LTE CAT4
+3. 4G/3G/2G/GSM/GPRS/GNSS HAT voor Raspberry Pi - LTE CAT4:
 
 ![Raspberry Pi - LTE](Images/Raspberry_PI_LTE.png)
+
+4. Huawei E8372h-153 - 4G Dongle:
+
+![Huawei - 4G Dongle](Images/Huawei_4G_Dongle.jpg)
+
 
