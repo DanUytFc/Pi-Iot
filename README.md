@@ -4,7 +4,7 @@ Bewaking van de hoofdverblijfplaats of buitenverblijf is ingeburgerd via commerc
 
 Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
 
-Dit project implementeerd een **monitoring van netspanning en internet** gebaseerd op een Raspberry Pi.
+Dit project implementeerd een ***monitoring van netspanning en internet*** gebaseerd op een Raspberry Pi.
 ## Bronnen
 Noteer hier uw inspiratie, hardware en software bronnen. 
 ## Hardware
