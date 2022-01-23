@@ -14,8 +14,6 @@ Op Youtube is er een video over [How to Detect Power & Internet Outages With My 
 
 Als hardware zal er de Raspberry Pi 2 Model B Rev 1.1 gebruikt worden.
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg#gh-dark-mode-only)
-
-![Raspberry Pi 2 Model B Rev 1.1](Images/PiJuice-Updated-3_1024x.jpg#gh-light-mode-only)
 ## Hardware
 Noteer hier welke hardware je gebruikt. 
 ## Software
