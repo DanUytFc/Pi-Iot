@@ -27,9 +27,9 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
 
-2. TBD
+2. PiJuice HAT - A portable Power Platform for Every Raspberry Pi
 
-![En dit de afbeelding in onze image map](Images/PiJuice-Updated-3_1024x.jpg)
+![PiJuice HAT](Images/PiJuice-Updated-1_1024x.jpg)
 
 3.TBD
 
