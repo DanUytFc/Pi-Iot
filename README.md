@@ -6,6 +6,10 @@ Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de ap
 
 Dit project implementeerd een ***monitoring van netspanning en internet*** gebaseerd op een ***Raspberry Pi***.
 ## Bronnen
+Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgelopen jaar. Noodgedwongen waren we verplicht de camping te verlaten toen deze getroffen werd. 
+
+Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde ip camera te bereiken. 
+
 Noteer hier uw inspiratie, hardware en software bronnen. 
 ## Hardware
 Noteer hier welke hardware je gebruikt. 
