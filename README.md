@@ -26,7 +26,9 @@ Sla je als apparte bestanden op in deze repository.
 1.  Raspberry Pi 2 Model B Rev 1.1
 
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
-
 2. TBD
+
 ![En dit de afbeelding in onze image map](Images/PiJuice-Updated-3_1024x.jpg)
+
+3.TBD
 ![En dit de afbeelding in onze image map](Images/dfsgxv.png)
