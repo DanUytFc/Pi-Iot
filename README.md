@@ -1,18 +1,19 @@
 # RPI-Gone-Fishing
 ## Beschrijving
-Bewaking van een hoofdverblijfplaats of buitenverblijf is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
+Bewaking van een verblijfplaats is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
 
 Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
 
-Dit project implementeerd een ***monitoring van netspanning en internet*** gebaseerd op een ***Raspberry Pi***.
+Dit project implementeerd een prototype voor ***monitoring van netspanning en internet*** gebaseerd op een ***Raspberry Pi***.
 ## Bronnen
-Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgelopen jaar. Noodgedwongen waren we verplicht de camping te verlaten toen deze getroffen werd. 
+Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgelopen jaar. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
 Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde ip camera te bereiken. 
 
 Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
 ## Hardware
-Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare ***Raspberry Pi 2 Model B Rev 1.1***.
+Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare ***Raspberry Pi 2 Model B Rev 1.1***. 
+- Eenmaal het prototype op punt staat, is het de bedoeling om over te schakelen naar de Raspberry Pi Zero W. 
 
 Zodra hardware terug beschikbaar is kunnen volgende uitbreidingen overwogen worden: 
 1. [Uninterruptible Power Supply(UPS) HAT](Images/PiJuice_HAT.png) om 5V voeding tijdelijk te voorzien indien de netspanning weggevallen is.
