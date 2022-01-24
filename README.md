@@ -25,7 +25,12 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ### Eigen scripts en programma's
-- [ ] eerste taak
+Overzicht van de taaklijst: 
+- [ ] Installatie en configuratie Outage-Detector. 
+- [ ] Notificatie via email. 
+- [ ] Notificatie via push berichten. 
+- [ ] Notificatie via IFTTT.
+- [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
 >Sla je als apparte bestanden op in deze repository.
 ## Afbeeldingen toevoegen
 1.  Raspberry Pi 2 Model B Rev 1.1:
