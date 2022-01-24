@@ -4,7 +4,7 @@ Supervisie van een verblijfplaats is ingeburgerd via commerciële oplossingen ge
 
 Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
 
-Dit project implementeerd een *prototype* voor ***Netspanning & Internet -Monitoring*** gebaseerd op een ***Raspberry Pi***.
+Dit project implementeerd een *prototype* voor ***Netspanning & internet monitoring*** gebaseerd op een ***Raspberry Pi***.
 ## Bronnen
 Tijdens de 2021 overstromingen in de Ardennen werden we geconfronteerd met de beperkingen van de huidige installatie. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
