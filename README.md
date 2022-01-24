@@ -33,7 +33,7 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 
 2. Raspberry Pi Zero W:
 
-![Raspberry Pi Zero W](Images/Raspberry Pi Zero W)
+![Raspberry Pi Zero W](Images/Raspberry_Pi_Zero_W)
 
 3. PiJuice HAT - A portable Power Platform for Every Raspberry Pi:
 
