@@ -36,22 +36,22 @@ Overzicht van de taaklijst:
 
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
 
-2. Raspberry Pi Zero W:
+2. Huawei E8372h-153 - 4G Dongle:
 
-![Raspberry Pi Zero W](Images/Raspberry_PI_Zero_W.jpg)
+![Huawei - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png)
 
-3. PiJuice HAT - A portable Power Platform for Every Raspberry Pi:
+3. SONY UWA-BR100 USB Wi-Fi adapter: 
 
-![PiJuice HAT](Images/PiJuice_HAT.png)
+![SONY - USB Wifi](Images/SONY_USB_Wifi.jpg)
 
 4. 4G/3G/2G/GSM/GPRS/GNSS HAT voor Raspberry Pi - LTE CAT4:
 
 ![Raspberry Pi - LTE](Images/Raspberry_PI_LTE.png)
 
-5. Huawei E8372h-153 - 4G Dongle:
+5. PiJuice HAT - A portable Power Platform for Every Raspberry Pi:
 
-![Huawei - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png)
+![PiJuice HAT](Images/PiJuice_HAT.png)
 
-6. SONY UWA-BR100 USB Wi-Fi adapter: 
+6. Raspberry Pi Zero W:
 
-![SONY - USB Wifi](Images/SONY_USB_Wifi.jpg)
+![Raspberry Pi Zero W](Images/Raspberry_PI_Zero_W.jpg)
