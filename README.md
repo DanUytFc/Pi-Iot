@@ -31,14 +31,18 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 
 ![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
 
-2. PiJuice HAT - A portable Power Platform for Every Raspberry Pi:
+2. Raspberry Pi Zero W:
+
+![Raspberry Pi Zero W](Images/Raspberry Pi Zero W)
+
+3. PiJuice HAT - A portable Power Platform for Every Raspberry Pi:
 
 ![PiJuice HAT](Images/PiJuice_HAT.png)
 
-3. 4G/3G/2G/GSM/GPRS/GNSS HAT voor Raspberry Pi - LTE CAT4:
+4. 4G/3G/2G/GSM/GPRS/GNSS HAT voor Raspberry Pi - LTE CAT4:
 
 ![Raspberry Pi - LTE](Images/Raspberry_PI_LTE.png)
 
-4. Huawei E8372h-153 - 4G Dongle:
+5. Huawei E8372h-153 - 4G Dongle:
 
 ![Huawei - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png)
