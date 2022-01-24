@@ -4,7 +4,7 @@ Bewaking van een verblijfplaats is ingeburgerd via commerciële oplossingen geba
 
 Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
 
-Dit project implementeerd een prototype voor ***monitoring van netspanning en internet*** gebaseerd op een ***Raspberry Pi***.
+Dit project implementeerd een *prototype* voor ***monitoring van netspanning en internet*** gebaseerd op een ***Raspberry Pi***.
 ## Bronnen
 Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgelopen jaar. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
