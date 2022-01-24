@@ -1,14 +1,14 @@
 # RPI-Gone-Fishing
 ## Beschrijving
-Bewaking van een verblijfplaats is ingeburgerd via commerciële oplossingen gebaseerd op internet deurbel, ip camera's ...
+Supervisie van een verblijfplaats is ingeburgerd via commerciële oplossingen gebaseerd op o.a. internet deurbel, ip camera, Wifi vermogen meter. 
 
 Deze zijn afhankelijk van de aanwezigheid van netspanning(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
 
 Dit project implementeerd een *prototype* voor ***monitoring van netspanning en internet*** gebaseerd op een ***Raspberry Pi***.
 ## Bronnen
-Inspiratie heb ik helaas opgedaan tijdens de overstromingen in de Ardennen afgelopen jaar 2021. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
+Tijdens de 2021 overstromingen in de Ardennen werden we geconfronteerd met de beperkingen van de huidige installatie. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
-Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde ip camera te bereiken. 
+Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde infrasturctuur te bereiken. 
 
 Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
 ## Hardware
