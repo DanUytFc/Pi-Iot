@@ -12,7 +12,7 @@ Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor
 
 Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
 ## Hardware
-Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare ***Raspberry Pi 2 Model B Rev 1.1***. 
+Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare [Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg). 
 - Eenmaal het prototype op punt staat, is het de bedoeling om over te schakelen naar de Raspberry Pi Zero W. 
 
 Zodra hardware terug beschikbaar is kunnen volgende uitbreidingen overwogen worden: 
