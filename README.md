@@ -30,7 +30,7 @@ Overzicht van de taaklijst:
 - [ ] Notificatie via push berichten. 
 - [ ] Notificatie via IFTTT.
 - [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
->Sla je als apparte bestanden op in deze repository.
+>Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen toevoegen
 1.  Raspberry Pi 2 Model B Rev 1.1:
 
