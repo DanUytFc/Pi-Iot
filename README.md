@@ -23,9 +23,9 @@ Als basis voor de software zal de GitHub Python source [Outage-Detector](https:/
 
 Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.*** 
 
-*Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.*
+>Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ### Eigen scripts en programma's
-*Sla je als apparte bestanden op in deze repository.*
+>Sla je als apparte bestanden op in deze repository.
 ## Afbeeldingen toevoegen
 1.  Raspberry Pi 2 Model B Rev 1.1:
 
