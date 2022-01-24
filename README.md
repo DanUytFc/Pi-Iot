@@ -34,7 +34,7 @@ Overzicht van de taaklijst:
 ## Afbeeldingen toevoegen
 1.  Raspberry Pi 2 Model B Rev 1.1:
 
-![Raspberry Pi 2 Model B Rev 1.1](Images/RASPBERRY_PI_2_B_06.jpg)
+![Raspberry Pi 2 Model B Rev 1.1](Images/raspberry-pi-2-model-b-v11-1gb-ram.jpg)
 
 2. Huawei E8372h-153 - 4G Dongle:
 
