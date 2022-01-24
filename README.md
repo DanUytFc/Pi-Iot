@@ -46,3 +46,7 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 5. Huawei E8372h-153 - 4G Dongle:
 
 ![Huawei - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png)
+
+6. SONY UWA-BR100 USB Wi-Fi adapter: 
+
+![SONY - USB Wifi](Images/SONY_USB_Wifi.jpg)
