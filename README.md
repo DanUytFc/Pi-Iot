@@ -27,7 +27,7 @@ Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.
 Overzicht van de taaklijst: 
 - [ ] Installatie en configuratie Outage-Detector. 
 - [ ] Notificatie via email. 
-- [ ] Notificatie via push berichten. [Pushbullet App API(https://www.pushbullet.com/) 
+- [ ] Notificatie via push berichten. [Pushbullet App API](https://www.pushbullet.com/) 
 - [ ] Notificatie via IFTTT.
 - [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
 
