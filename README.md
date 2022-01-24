@@ -35,7 +35,8 @@ Open issue's:
 - [ ] Hoe maak je een pip3 deployment package op basis van je eigen code. 
 - [ ] Hoe maak je aanpassingen aan een pip3 deployment van iemand anders. 
 - [ ] uhubctl gebruiken om USB poorten te (des)-activeren. 
-- [ ] Hoe kan Home Assistant een uitbreiding zijn? 
+- [ ] Hoe kan Home Assistant een uitbreiding zijn?
+- [ ] Kun je een Raspberry Pi in sleep mode zetten om batterij te sparen? Is er dan ook een awake functionaliteit.
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
