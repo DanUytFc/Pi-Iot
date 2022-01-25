@@ -21,7 +21,14 @@ Zodra hardware terug beschikbaar is kunnen volgende uitbreidingen overwogen word
 ## Software
 Als basis voor de software zal de GitHub Python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie project gebruikt worden. 
 
-Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.*** 
+Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
+
+In de YouTube video staan extra commando's die moeten uitgevoerd worden tijdens de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen:
+...
+sudo apt update
+sudo apt full-upgrade
+sudo apt-get install python-venv
+...
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 Overzicht van de taaklijst: 
@@ -37,6 +44,7 @@ Open issue's:
 - [ ] uhubctl gebruiken om USB poorten te (des)-activeren. 
 - [ ] Hoe kan Home Assistant een uitbreiding zijn?
 - [ ] Kun je een Raspberry Pi in sleep mode zetten om batterij te sparen? Is er dan ook een awake functionaliteit.
+- [ ] API beschrijving van de HomeWizard Energy HWE-SDM230 Wifi vermogenmeter. 
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
