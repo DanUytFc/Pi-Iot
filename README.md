@@ -19,11 +19,9 @@ Zodra hardware terug beschikbaar is kunnen volgende uitbreidingen overwogen word
 1. [4G/3G/2G/GSM/GPRS/GNSS HAT](Images/Raspberry_PI_LTE.png) om tijdelijk over te schakelen naar mobiel data GSM netwerk indien internet via vast ethernet weggevallen is. Als alternatief zal ondertussen de beschikbare [Huawei E8372h-153 - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png) in combinatie met de [SONY UWA-BR100 USB Wi-Fi adapter](Images/SONY_USB_Wifi.jpg) gebruikt worden. 
 2. [Uninterruptible Power Supply(UPS) HAT](Images/PiJuice_HAT.png) om 5V voeding tijdelijk te voorzien indien de netspanning weggevallen is.
 ## Software
-Als basis voor de software zal de GitHub Python source [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie project gebruikt worden. 
+Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
 
-Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
-
-In de YouTube video staan extra commando's die moeten uitgevoerd worden tijdens de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen:
+In de YouTube video staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen:
 
 ```
 sudo apt update
@@ -38,6 +36,8 @@ python3 -m venv GF
 # activeer virtual omgeving
 . GF/bin/activate
 ```
+Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie video. 
+
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 Overzicht van de taaklijst: 
