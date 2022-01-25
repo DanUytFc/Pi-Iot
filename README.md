@@ -26,14 +26,14 @@ In de YouTube video staan commando's die moeten uitgevoerd worden vóór de inst
 ```
 sudo apt update
 sudo apt full-upgrade
-# installeer Python 3 virtual omgeving specifiek voor onze applicatie
+# installeer Python 3 virtuele omgeving specifiek voor onze applicatie
 sudo apt-get install python3-venv
 # installatie directory
 mkdir RPI-GF
 cd RPI-GF
-# creatie virtual omgeving
+# creatie virtuele omgeving
 python3 -m venv GF
-# activeer virtual omgeving
+# activeer virtuele omgeving
 . GF/bin/activate
 ```
 Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie video. 
