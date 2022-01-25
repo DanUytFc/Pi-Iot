@@ -53,7 +53,7 @@ Open issue's:
 - [ ] uhubctl gebruiken om USB poorten te (des)-activeren. 
 - [ ] Hoe kan Home Assistant een uitbreiding zijn?
 - [ ] Kun je een Raspberry Pi in sleep mode zetten om batterij te sparen? Is er dan ook een awake functionaliteit.
-- [ ] API beschrijving van de HomeWizard Energy HWE-SDM230 Wifi vermogenmeter. 
+- [ ] [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
