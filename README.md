@@ -28,8 +28,15 @@ In de YouTube video staan extra commando's die moeten uitgevoerd worden tijdens 
 ```
 sudo apt update
 sudo apt full-upgrade
-# install Python 3 vritual environments
+# installeer Python 3 virtual omgeving specifiek voor onze applicatie
 sudo apt-get install python3-venv
+# installatie directory
+mkdir RPI-GF
+cd RPI-GF
+# creatie virtual omgeving
+python3 -m venv GF
+# activeer virtual omgeving
+. GF/bin/activate
 ```
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
