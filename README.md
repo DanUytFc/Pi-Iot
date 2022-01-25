@@ -24,8 +24,8 @@ Als basis voor de software zal de GitHub Python source [Outage-Detector](https:/
 Deze zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
 
 In de YouTube video staan extra commando's die moeten uitgevoerd worden tijdens de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen:
-...
 
+...
 sudo apt update
 sudo apt full-upgrade
 sudo apt-get install python-venv
