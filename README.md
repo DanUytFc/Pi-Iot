@@ -51,7 +51,7 @@ Open issue's:
 - [ ] Hoe maak je een pip3 deployment package op basis van je eigen code. 
 - [ ] Hoe maak je aanpassingen aan een pip3 deployment van iemand anders. 
 - [ ] uhubctl gebruiken om USB poorten te (des)-activeren. 
-- [ ] Hoe kan Home Assistant een uitbreiding zijn?
+- [ ] Hoe kan [Home Assistant](https://www.home-assistant.io) een uitbreiding zijn?
 - [ ] Kun je een Raspberry Pi in sleep mode zetten om batterij te sparen? Is er dan ook een awake functionaliteit.
 - [ ] [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
 >Sla je aparte bestanden op in deze repository.
