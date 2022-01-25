@@ -44,7 +44,7 @@ Overzicht van de taaklijst:
 - [ ] Installatie en configuratie Outage-Detector. 
 - [ ] Notificatie via email. 
 - [ ] Notificatie via push berichten. [Pushbullet App API](https://www.pushbullet.com/). 
-- [ ] Notificatie via IFTTT.
+- [ ] Notificatie via [IFTTT ](https://ifttt.com/?utm_medium=Email&utm_source=Customerio&utm_campaign=User_Template&utm_term=IFTTT_Logo&utm_content=).
 - [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
 
 Open issue's: 
