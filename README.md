@@ -28,7 +28,8 @@ In de YouTube video staan extra commando's die moeten uitgevoerd worden tijdens 
 ```
 sudo apt update
 sudo apt full-upgrade
-sudo apt-get install python-venv
+# install Python 3 vritual environments
+sudo apt-get install python3-venv
 ```
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
