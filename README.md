@@ -47,7 +47,8 @@ Overzicht van de taaklijst:
 - [ ] Notificatie via [IFTTT ](https://ifttt.com/?utm_medium=Email&utm_source=Customerio&utm_campaign=User_Template&utm_term=IFTTT_Logo&utm_content=).
 - [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
 
-Open issue's: 
+Open issue's:
+- [ ] Geany aanpassingen voor python3 nodig? 
 - [ ] Hoe maak je een pip3 deployment package op basis van je eigen code. 
 - [ ] Hoe maak je aanpassingen aan een pip3 deployment van iemand anders. 
 - [ ] uhubctl gebruiken om USB poorten te (des)-activeren. 
