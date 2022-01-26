@@ -80,3 +80,10 @@ Open issue's:
 6. Raspberry Pi Zero W:
 
 ![Raspberry Pi Zero W](Images/Raspberry_PI_Zero_W.jpg)
+
+## Nuttige commando's
+| Command | Description |
+| --- | --- |
+| git status | List all new or modified files |
+| git diff | Show file differences that haven't been staged |
+
