@@ -84,5 +84,5 @@ Open issue's:
 ## Nuttige commando's
 | Command | Description |
 | --- | --- |
-| cat /proc/device-tree/model | Geef het PI model weer. |
+| cat /proc/device-tree/model | Geef het PI model weer |
 | python -- | Python versie |
