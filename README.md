@@ -74,6 +74,7 @@ Basic information:
 Recent measurement:
 {"wifi_ssid":"frodoWLANA","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
 ```
+- [ ] Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api)
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
