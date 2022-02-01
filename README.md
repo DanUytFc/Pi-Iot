@@ -66,7 +66,7 @@ response=requests.get('http://192.168.36.151/api/v1/data')
 
 print("Recent measurement:")
 print(response.text)
-
+```
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
