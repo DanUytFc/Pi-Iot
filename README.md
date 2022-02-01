@@ -52,7 +52,7 @@ Open issue's:
 - [ ] Kun je een Raspberry Pi in sleep mode zetten om batterij te sparen? Is er dan ook een awake functionaliteit.
 - [ ] [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
 
-'''
+```
 import requests
 
 # Basic information
@@ -66,7 +66,7 @@ response=requests.get('http://192.168.36.151/api/v1/data')
 
 print("Recent measurement:")
 print(response.text)
-'''
+
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
