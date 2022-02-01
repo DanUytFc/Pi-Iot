@@ -74,7 +74,22 @@ Basic information:
 Recent measurement:
 {"wifi_ssid":"frodoWLANA","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
 ```
-- [ ] Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api)
+- [ ] Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api).
+```
+import urllib.request, json
+import datetime
+
+# openweathermap API key 
+key = "a5d0fd1eb06b0df07397fdb4966f4426"
+plaats = "Eernegem"
+url = "http://api.openweathermap.org/data/2.5/weather?q=" + plaats + "&appid=" + key + "&units=metric"
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
+temp = data['main']['temp']
+temp2 = data['dt']
+print (data)
+print ('Temperatuur in %s op %s is %s graden Celcius' % (plaats, datetime.datetime.fromtimestamp(temp2), temp))
+```
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
