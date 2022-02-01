@@ -95,7 +95,7 @@ print ('Temperatuur in %s op %s is %s graden Celcius' % (plaats, datetime.dateti
 {'coord': {'lon': 3.027, 'lat': 51.1296}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 10.61, 'feels_like': 9.87, 'temp_min': 7.97, 'temp_max': 12.23, 'pressure': 1016, 'humidity': 82}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 165, 'gust': 9.39}, 'clouds': {'all': 20}, 'dt': 1643725615, 'sys': {'type': 2, 'id': 2018252, 'country': 'BE', 'sunrise': 1643700317, 'sunset': 1643733452}, 'timezone': 3600, 'id': 2800931, 'name': 'Eernegem', 'cod': 200}
 Temperatuur in Eernegem op 2022-02-01 15:26:55 is 10.61 graden Celcius
 ```
-- [ ] Connecteer Raspberry Pi met de Smart App [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi), [Connect Raspbarry Pi to Smart App through Tuya Cloud](https://www.youtube.com/watch?app=desktop&v=Xo1gfOQZyx4)
+- [ ] Connecteer Raspberry Pi met de Smart App [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi), [Connect Raspbarry Pi to Smart App through Tuya Cloud](https://www.youtube.com/watch?app=desktop&v=Xo1gfOQZyx4).
 >Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
