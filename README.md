@@ -51,6 +51,7 @@ Open issue's:
 - [ ] Hoe kan [Home Assistant](https://www.home-assistant.io) een uitbreiding zijn?
 - [ ] Kun je een Raspberry Pi in sleep mode zetten om batterij te sparen? Is er dan ook een awake functionaliteit.
 - [ ] [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
+
 '''
 import requests
 
