@@ -43,8 +43,8 @@ Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://
 Overzicht van de taaklijst: 
 - [ ] Installatie en configuratie Outage-Detector. 
 - [ ] Notificatie via email. 
-- [ ] Notificatie via push berichten. [Pushbullet App API](https://www.pushbullet.com/). 
-- [ ] Notificatie via [IFTTT ](https://ifttt.com/?utm_medium=Email&utm_source=Customerio&utm_campaign=User_Template&utm_term=IFTTT_Logo&utm_content=).
+
+- [ ] Notificatie via [IFTTT ](https://ifttt.com/?utm_medium=Email&utm_source=Customerio&utm_campaign=User_Template&utm_term=IFTTT_Logo&utm_content=). Verschillende value voor een power of internet outage. 
 - [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
 
 Open issue's:
