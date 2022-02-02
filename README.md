@@ -43,7 +43,18 @@ Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://
 Overzicht van de taaklijst: 
 - [ ] Notificatie via email. 
 - [ ] Notificatie via [IFTTT ](https://ifttt.com/?utm_medium=Email&utm_source=Customerio&utm_campaign=User_Template&utm_term=IFTTT_Logo&utm_content=). Verschillende values voor een power of internet outage. 
-- [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. 
+- [ ] Automatische failover naar mobiel data GSM network indien internet via vast ethernet weggevallen is. Simulatie fallback via Wifi indien ethernet weggevallen is. 
+```
+sudo apt install rfkill
+# Disable Wifi
+sudo rfkill block wifi
+#Enable Wifi
+sudo rfkill unblock wifi
+
+# Ethernet routing preference
+ip route list
+route -n
+```
 
 Open issue's:
 - [ ] Hoe maak je een pip3 deployment package op basis van je eigen code. 
