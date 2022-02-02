@@ -48,7 +48,7 @@ Overzicht van de taaklijst:
 sudo apt install rfkill
 # Disable Wifi
 sudo rfkill block wifi
-#Enable Wifi
+# Enable Wifi
 sudo rfkill unblock wifi
 
 # Ethernet routing preference
