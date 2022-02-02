@@ -54,6 +54,12 @@ sudo rfkill unblock wifi
 # Ethernet routing preference
 ip route list
 route -n
+
+# Shell command from Python
+import subprocess
+
+list_files = subprocess.run(["ls", "-l"])
+print("The exit code was: %d" % list_files.returncode)
 ```
 
 Open issue's:
