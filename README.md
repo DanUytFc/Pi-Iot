@@ -143,4 +143,6 @@ Temperatuur in Eernegem op 2022-02-01 15:26:55 is 10.61 graden Celcius
 | Command | Description |
 | --- | --- |
 | cat /proc/device-tree/model | Geef het PI model weer |
+| ip addr | show addresses to network interfaces |
+| man -k | manual page keyword |
 | python -- | Python versie |
