@@ -16,7 +16,8 @@ De implementatie vereist 2 Raspberry Pi boards:
 
 Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare Raspberry Pi Model B Rev 1.1 voor zowel de installatie thuis als op afstand. Zodra de Raspberry Pi Zero 2W terug beschikbaar is zal de installatie op afstand hiernaar gemigreerd worden. 
 ## Software
-Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
+Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS***. Hierop zullen volgende paketten geïnstalleerd worden: 
+1. [Home Assistant](https://www.home-assistant.io) 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
