@@ -20,7 +20,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
-
+>Sla je aparte bestanden op in deze repository.
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
 
