@@ -1,6 +1,6 @@
 # Pi-Iot
 ## Beschrijving
-Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel op basis van de stijgende energieprijzen. 
+Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel getriggerd door de stijgende energieprijzen. 
 
 Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry *** Pi-Iot*** oplossing.
 ## Bronnen
