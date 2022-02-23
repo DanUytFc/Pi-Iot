@@ -1,12 +1,12 @@
 # Pi-Iot
 ## Beschrijving
-Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als eventueel tweede verblijf. 
+Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als op afstand bv. tweede verblijf. 
 
 Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry ***Pi-Iot*** oplossing. Het kreeg als bijnaam 'Pilot'.
 ## Bronnen
 Eén van de economische gevolgen van de COVID-19-pandemie zijn de stijgende energieprijzen van elektriciteit en gas. Sinds enige tijd hou ik mijn meterstanden(elektriciteit, gas, zonnepanelen, water, auto) bij in de ***[EnergieID](https://app.energyid.eu)*** web/app.  
 
-Een notificatie op begin van de maand herinnert mij eraan om deze meters af te lezen en manueel in te voeren. Dit is echter vervelend voor meters op afstand en moet geautomatiseerd worden. 
+Een notificatie op begin van de maand herinnert mij eraan om deze meters af te lezen op teller of app en manueel in te voeren. Voor meters op afstand zou dit geautomatiseerd moeten worden. 
 
 ## Hardware
 Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare [Raspberry Pi 2 Model B Rev 1.1](Images/raspberry-pi-2-model-b-v11-1gb-ram.jpg).
