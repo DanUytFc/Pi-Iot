@@ -1,10 +1,8 @@
 # ePiIot
 ## Beschrijving
-Supervisie van een verblijfplaats is ingeburgerd via commerciële oplossingen gebaseerd op o.a. internet deurbel, ip camera, Wifi vermogen meter. 
+Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel op basis van de stijgende energieprijzen. 
 
-Deze zijn afhankelijk van de aanwezigheid van netstroom(voor voeding van de apparaten) en een werkend internet(voor toegang op afstand) op deze locaties. 
-
-Dit project implementeerd een *prototype* voor ***Netstroom & Internet onderbreking*** gebaseerd op een ***Raspberry Pi***.
+Dit project implementeerd een *framework* voor de ***energy analyse*** gebaseerd op een ***Raspberry Pi***.
 ## Bronnen
 Tijdens de 2021 overstromingen in de Ardennen werden we geconfronteerd met de beperkingen van de huidige installatie. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
