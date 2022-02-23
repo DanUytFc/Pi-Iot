@@ -2,7 +2,7 @@
 ## Beschrijving
 Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel getriggerd door de stijgende energieprijzen. 
 
-Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry *** Pi-Iot*** oplossing.
+Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry ***Pi-Iot*** oplossing.
 ## Bronnen
 Tijdens de 2021 overstromingen in de Ardennen werden we geconfronteerd met de beperkingen van de huidige installatie. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
