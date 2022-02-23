@@ -26,7 +26,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 ![Raspberry Pi 2 Model B Rev 1.1](Images/raspberry-pi-2-model-b-v11-1gb-ram.jpg)
 
-2. Raspberry Pi Zero W:
+2. Raspberry Pi Zero 2 W:
 
 ![Raspberry Pi Zero 2 W](Images/raspberry-pi-zero-2-w-hero-800x535.jpg)
 
