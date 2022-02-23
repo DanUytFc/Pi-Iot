@@ -1,4 +1,4 @@
-# ePiIot
+# PiIot
 ## Beschrijving
 Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel op basis van de stijgende energieprijzen. 
 
