@@ -1,6 +1,6 @@
 # Pi-Iot
 ## Beschrijving
-Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel. 
+Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als eventueel tweede verblijf. 
 
 Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry ***Pi-Iot*** oplossing. Het kreeg als bijnaam *Pilot*. 
 ## Bronnen
