@@ -18,7 +18,7 @@ Aangezien hardware levering een probleem is in deze pandemie periode zal ik teru
 ## Software
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
 
-
+>Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 
 ## Afbeeldingen
