@@ -28,7 +28,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 2. Raspberry Pi Zero W:
 
-![Raspberry Pi Zero W](Images/Raspberry_PI_Zero_W.jpg)
+![Raspberry Pi Zero 2 W](Images/raspberry-pi-zero-2-w-hero-800x535.jpg)
 
 ## Nuttige commando's
 | Command | Description |
