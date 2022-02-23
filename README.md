@@ -1,6 +1,6 @@
 # Pi-Iot
 ## Beschrijving
-Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als op afstand bv. tweede verblijf. 
+Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als op afstand zoals tweede verblijf. 
 
 Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry ***Pi-Iot*** oplossing. Het kreeg als bijnaam 'Pilot'.
 ## Bronnen
@@ -11,6 +11,8 @@ Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worde
 - [ ] Door het invoeren van een slimme thermostaat kan het gasverbruik voor de verwarming geoptimaliseerd worden. Dit moet verder verfijnt worden door de nachtstand van de verwarming te activeren om 22:00. 
 ## Hardware
 De implementatie vereist 2 Raspberry Pi boards: 
+1. *Raspberry Pi 2 Model B Rev 1.1:* installatie thuis. 
+2. *Raspberry Pi Zero 2 W:* installatie op afstand.
 
 ## Software
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS.***
@@ -20,9 +22,11 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
+
 ![Raspberry Pi 2 Model B Rev 1.1](Images/raspberry-pi-2-model-b-v11-1gb-ram.jpg)
 
 2. Raspberry Pi Zero W:
+
 ![Raspberry Pi Zero W](Images/Raspberry_PI_Zero_W.jpg)
 
 ## Nuttige commando's
