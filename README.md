@@ -7,8 +7,8 @@ Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op
 Eén van de economische gevolgen van de COVID-19-pandemie zijn de stijgende energieprijzen van elektriciteit en gas. Sinds enige tijd hou ik mijn meterstanden(elektriciteit, gas, zonnepanelen, water, auto) bij in de ***[EnergieID](https://app.energyid.eu)*** web/app.  
 
 Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worden: 
-- [ ] Een notificatie op begin van de maand herinnert mij eraan om deze meters af te lezen op specifieke teller of app en manueel in te voeren. Voor meters op afstand zou dit geautomatiseerd moeten worden. 
-- [ ] Door het invoeren van een slimme thermostaat kan het gasverbruik voor de verwarming geoptimaliseerd worden. Dit moet verder verfijnt worden. 
+- [ ] Een notificatie op begin van de maand herinnert mij eraan om deze meters af te lezen op specifieke teller of app en manueel in te voeren. Voor meters op afstand zou dit geautomatiseerd moeten worden door de gegevens iedere 15min door te sturen. 
+- [ ] Door het invoeren van een slimme thermostaat kan het gasverbruik voor de verwarming geoptimaliseerd worden. Dit moet verder verfijnt worden door de nachtstand van de verwarming te activeren om 22:00. 
 ## Hardware
 De implementatie vereist 2 Raspberry Pi boards: 
 
@@ -20,11 +20,9 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
-
 ![Raspberry Pi 2 Model B Rev 1.1](Images/raspberry-pi-2-model-b-v11-1gb-ram.jpg)
 
 2. Raspberry Pi Zero W:
-
 ![Raspberry Pi Zero W](Images/Raspberry_PI_Zero_W.jpg)
 
 ## Nuttige commando's
