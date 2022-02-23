@@ -1,9 +1,10 @@
 # Pi-Iot
 ## Beschrijving
-Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel getriggerd door de stijgende energieprijzen. 
+Meten en opvolgen van het energieverbruik en opbrengst wordt gloeiend actueel. 
 
 Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry ***Pi-Iot*** oplossing. Het kreeg als bijnaam *Pilot*. 
 ## Bronnen
+Eén van de economische gevolgen van de COVID-19-pandemie zijn de stijgende energieprijzen. 
 Tijdens de 2021 overstromingen in de Ardennen werden we geconfronteerd met de beperkingen van de huidige installatie. Noodgedwongen waren we verplicht onze verblijfplaats te verlaten toen deze getroffen werd. 
 
 Zowel de elektriciteit en internet werden uitgeschakeld uit veiligheid. Hierdoor was het niet meer mogelijk om op afstand de geinstalleerde infrastructuur te bereiken. 
