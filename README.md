@@ -20,8 +20,7 @@ Aangezien hardware levering een probleem is in deze pandemie periode zal ik teru
 ## Software
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS***. 
 1. Installatie [Home Assistant](https://www.home-assistant.io): 
-   * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. 
-![Log file](Logs/Home_Assitant_logfile.txt) kun je hier bekijken. 
+   * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. [Log file](Logs/Home_Assitant_logfile.txt) kun je hier bekijken. 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
