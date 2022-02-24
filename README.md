@@ -64,3 +64,4 @@ pi@RPIDanUyt:~/.config/autostart $
 | ip addr | show addresses to network interfaces |
 | man -k | manual page keyword |
 | python -- | Python versie |
+| sudo systemctl status home-assistant@homeassistant -l | Home Assistant status |
