@@ -233,4 +233,23 @@ Unable to find configuration. Creating default one in /home/homeassistant/.homea
 (homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $ deactivate 
 homeassistant@RPIDanUyt:/srv/homeassistant $ exit
 exit
-pi@RPIDanUyt:~ $ 
+pi@RPIDanUyt:~ $ cd /etc/systemd/system/
+pi@RPIDanUyt:/etc/systemd/system $ sudo vi home-assistant@homeassistant.service
+[Unit]
+Description=Home Assistant
+After=network-online.target
+
+[Service]
+# Activeer de volgende regel om de start van HomeAssistant 30 seconden uit te stellen
+#ExecStartPre=/usr/bin/sleep 30
+Type=simple
+User=%i
+ExecStart=/srv/homeassistant/bin/hass -c "/home/homeassistant/.homeassistant"
+
+[Install]
+WantedBy=multi-user.target
+pi@RPIDanUyt:/etc/systemd/system $ cd
+pi@RPIDanUyt:~ $ sudo systemctl --system daemon-reload
+pi@RPIDanUyt:~ $ sudo systemctl enable home-assistant@homeassistant
+Created symlink /etc/systemd/system/multi-user.target.wants/home-assistant@homeassistant.service → /etc/systemd/system/home-assistant@homeassistant.service.
+pi@RPIDanUyt:~ $ sudo systemctl start home-assistant@homeassistant
