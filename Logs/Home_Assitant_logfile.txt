@@ -34,7 +34,7 @@ De volgende NIEUWE pakketten zullen geïnstalleerd worden:
 0 opgewaardeerd, 10 nieuw geïnstalleerd, 0 te verwijderen en 0 niet opgewaardeerd.
 Er moeten 3.514 kB aan archieven opgehaald worden.
 Na deze bewerking zal er 11,5 MB extra schijfruimte gebruikt worden.
-Wilt u doorgaan? [J/n] 
+Wilt u doorgaan? [J/n] J
 Ophalen:2 http://ftp.halifax.rwth-aachen.de/raspbian/raspbian bullseye/main armhf m4 armhf 1.4.18-5 [186 kB]
 Ophalen:1 http://mirror.truenetwork.ru/raspbian/raspbian bullseye/main armhf libsigsegv2 armhf 2.13-1 [34,3 kB]
 Ophalen:3 http://mirror.as43289.net/raspbian/raspbian bullseye/main armhf autoconf all 2.69-14 [313 kB]
@@ -111,6 +111,19 @@ Instellen van automake (1:1.16.3-2) ...
 update-alternatives: /usr/bin/automake-1.16 wordt gebruikt om in de automatische modus in /usr/bin/automake (automake) te voorzien.
 Bezig met afhandelen van triggers voor man-db (2.9.4-2) ...
 Bezig met afhandelen van triggers voor install-info (6.7.0.dfsg.2-6) ...
+Bezig met afhandelen van triggers voor libc-bin (2.31-13+rpt2+rpi1+deb11u2) ...
+pi@RPIDanUyt:~ $ sudo apt autoremove
+Pakketlijsten worden ingelezen... Klaar
+Boom van vereisten wordt opgebouwd... Klaar
+De statusinformatie wordt gelezen... Klaar 
+De volgende pakketten zullen VERWIJDERD worden:
+  libfuse2
+0 opgewaardeerd, 0 nieuw geïnstalleerd, 1 te verwijderen en 0 niet opgewaardeerd.
+Na deze bewerking zal er 288 kB schijfruimte vrijkomen.
+Wilt u doorgaan? [J/n] J
+(Database wordt ingelezen ... 100124 bestanden en mappen momenteel geïnstalleerd
+.)
+libfuse2:armhf (2.9.9-5) wordt verwijderd ...
 Bezig met afhandelen van triggers voor libc-bin (2.31-13+rpt2+rpi1+deb11u2) ...
 pi@RPIDanUyt:~ $ sudo useradd -rm homeassistant -G dialout,gpio,i2c
 pi@RPIDanUyt:~ $cd /srv
