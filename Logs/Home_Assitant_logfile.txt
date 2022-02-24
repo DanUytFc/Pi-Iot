@@ -118,4 +118,5 @@ pi@RPIDanUyt:/srv $ sudo chown homeassistant:homeassistant homeassistant
 pi@RPIDanUyt:/srv $ sudo -u homeassistant -H -s
 homeassistant@RPIDanUyt:/srv $ cd /srv/homeassistant
 homeassistant@RPIDanUyt:/srv/homeassistant $ python3.9 -m venv .
-homeassistant@RPIDanUyt:/srv/homeassistant $ 
+homeassistant@RPIDanUyt:/srv/homeassistant $ source bin/activate
+(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $ 
