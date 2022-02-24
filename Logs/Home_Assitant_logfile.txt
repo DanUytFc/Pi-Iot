@@ -114,4 +114,6 @@ Bezig met afhandelen van triggers voor libc-bin (2.31-13+rpt2+rpi1+deb11u2) ...
 
 pi@RPIDanUyt:~ $ sudo useradd -rm homeassistant -G dialout,gpio,i2c
 pi@RPIDanUyt:~ $cd /srv
-pi@RPIDanUyt:/srv $
+pi@RPIDanUyt:/srv $ sudo mkdir homeassistant
+pi@RPIDanUyt:/srv $ sudo chown homeassistant:homeassistant homeassistant
+pi@RPIDanUyt:/srv $ 
