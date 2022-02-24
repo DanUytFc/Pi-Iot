@@ -40,6 +40,7 @@ pi@RPIDanUyt:~/.config/autostart $
 ```
 2. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
+   * Home Assistant openen met browser op [URL](http://RPIDanUyt.local:8123). 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
