@@ -19,7 +19,26 @@ De implementatie vereist 2 Raspberry Pi boards:
 Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare Raspberry Pi Model B Rev 1.1 voor zowel de installatie thuis als op afstand. Zodra de Raspberry Pi Zero 2W terug beschikbaar is zal de installatie op afstand hiernaar gemigreerd worden. 
 ## Software
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS***. 
-1. Installatie [Home Assistant](https://www.home-assistant.io): 
+1. Schakel scherm energiebesparende functies uit. Dit is noodzakelijk bij gebruik in de leslokalen. Anders blokkeerd het scherm en is een reboot noodzakelijk. 
+```
+pi@RPIDanUyt:~ $ mkdir .local/bin
+pi@RPIDanUyt:~ $ cd .local/bin
+pi@RPIDanUyt:~/.local/bin $ vi energiebesparend.sh
+#!/bin/bash
+xset s off
+xset -dpms
+xset s noblank
+pi@RPIDanUyt:~/.local/bin $ chmod +x energiebesparend.sh
+pi@RPIDanUyt:~/.local/bin $ cd
+pi@RPIDanUyt:~ $ mkdir .config/autostart
+pi@RPIDanUyt:~ $ cd .config/autostart
+pi@RPIDanUyt:~/.config/autostart $ vi energiebesparend.desktop
+[Desktop Entry]
+Type=Application
+Exec=/home/pi/.local/bin/energiebesparend.sh
+pi@RPIDanUyt:~/.config/autostart $
+```
+2. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
