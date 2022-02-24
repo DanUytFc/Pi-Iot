@@ -139,4 +139,93 @@ Collecting wheel
   Downloading https://www.piwheels.org/simple/wheel/wheel-0.37.1-py2.py3-none-any.whl (35 kB)
 Installing collected packages: wheel
 Successfully installed wheel-0.37.1
-(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $
+(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $ pip3 install homeassistant
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting homeassistant
+  Downloading https://www.piwheels.org/simple/homeassistant/homeassistant-2022.2.9-py3-none-any.whl (16.3 MB)
+Collecting aiohttp==3.8.1
+  Downloading https://www.piwheels.org/simple/aiohttp/aiohttp-3.8.1-cp39-cp39-linux_armv7l.whl (1.1 MB)
+Collecting voluptuous==0.12.2
+  Downloading https://www.piwheels.org/simple/voluptuous/voluptuous-0.12.2-py3-none-any.whl (35 kB)
+Collecting httpx==0.21.3
+  Downloading https://www.piwheels.org/simple/httpx/httpx-0.21.3-py3-none-any.whl (83 kB)
+Collecting typing-extensions<5.0,>=3.10.0.2
+  Downloading https://www.piwheels.org/simple/typing-extensions/typing_extensions-4.1.1-py3-none-any.whl (26 kB)
+Collecting ciso8601==2.2.0
+  Downloading https://www.piwheels.org/simple/ciso8601/ciso8601-2.2.0-cp39-cp39-linux_armv7l.whl (29 kB)
+Collecting pip<20.3,>=8.0.3
+  Downloading https://www.piwheels.org/simple/pip/pip-20.2.4-py2.py3-none-any.whl (1.5 MB)
+Collecting requests==2.27.1
+  Downloading https://www.piwheels.org/simple/requests/requests-2.27.1-py2.py3-none-any.whl (63 kB)
+Collecting yarl==1.7.2
+  Downloading https://www.piwheels.org/simple/yarl/yarl-1.7.2-cp39-cp39-linux_armv7l.whl (264 kB)
+Collecting ifaddr==0.1.7
+  Downloading https://www.piwheels.org/simple/ifaddr/ifaddr-0.1.7-py2.py3-none-any.whl (10 kB)
+Collecting bcrypt==3.1.7
+  Downloading https://www.piwheels.org/simple/bcrypt/bcrypt-3.1.7-cp39-cp39-linux_armv7l.whl (53 kB)
+Collecting jinja2==3.0.3
+  Downloading https://www.piwheels.org/simple/jinja2/Jinja2-3.0.3-py3-none-any.whl (133 kB)
+Collecting pyyaml==6.0
+  Downloading https://www.piwheels.org/simple/pyyaml/PyYAML-6.0-cp39-cp39-linux_armv7l.whl (45 kB)
+Collecting atomicwrites==1.4.0
+  Downloading https://www.piwheels.org/simple/atomicwrites/atomicwrites-1.4.0-py2.py3-none-any.whl (6.8 kB)
+Collecting awesomeversion==22.1.0
+  Downloading https://www.piwheels.org/simple/awesomeversion/awesomeversion-22.1.0-py3-none-any.whl (12 kB)
+Collecting voluptuous-serialize==2.5.0
+  Downloading https://www.piwheels.org/simple/voluptuous-serialize/voluptuous_serialize-2.5.0-py3-none-any.whl (3.4 kB)
+Collecting astral==2.2
+  Downloading https://www.piwheels.org/simple/astral/astral-2.2-py2.py3-none-any.whl (30 kB)
+Collecting async-timeout==4.0.2
+  Downloading https://www.piwheels.org/simple/async-timeout/async_timeout-4.0.2-py3-none-any.whl (5.8 kB)
+Collecting cryptography==35.0.0
+  Downloading https://www.piwheels.org/simple/cryptography/cryptography-35.0.0-cp39-cp39-linux_armv7l.whl (2.6 MB)
+Collecting PyJWT==2.1.0
+  Downloading https://www.piwheels.org/simple/pyjwt/PyJWT-2.1.0-py3-none-any.whl (16 kB)
+Collecting python-slugify==4.0.1
+  Downloading https://www.piwheels.org/simple/python-slugify/python_slugify-4.0.1-py2.py3-none-any.whl (7.0 kB)
+Collecting certifi>=2021.5.30
+  Downloading https://www.piwheels.org/simple/certifi/certifi-2021.10.8-py2.py3-none-any.whl (151 kB)
+Collecting attrs==21.2.0
+  Downloading https://www.piwheels.org/simple/attrs/attrs-21.2.0-py2.py3-none-any.whl (53 kB)
+Collecting multidict<7.0,>=4.5
+  Downloading https://www.piwheels.org/simple/multidict/multidict-6.0.2-cp39-cp39-linux_armv7l.whl (109 kB)
+Collecting frozenlist>=1.1.1
+  Downloading https://www.piwheels.org/simple/frozenlist/frozenlist-1.3.0-cp39-cp39-linux_armv7l.whl (134 kB)
+Collecting charset-normalizer<3.0,>=2.0
+  Downloading https://www.piwheels.org/simple/charset-normalizer/charset_normalizer-2.0.12-py3-none-any.whl (44 kB)
+Collecting aiosignal>=1.1.2
+  Downloading https://www.piwheels.org/simple/aiosignal/aiosignal-1.2.0-py3-none-any.whl (8.2 kB)
+Collecting pytz
+  Downloading https://www.piwheels.org/simple/pytz/pytz-2021.3-py3-none-any.whl (511 kB)
+Collecting cffi>=1.1
+  Downloading https://www.piwheels.org/simple/cffi/cffi-1.15.0-cp39-cp39-linux_armv7l.whl (369 kB)
+Collecting six>=1.4.1
+  Downloading https://www.piwheels.org/simple/six/six-1.16.0-py2.py3-none-any.whl (11 kB)
+Collecting sniffio
+  Downloading https://www.piwheels.org/simple/sniffio/sniffio-1.2.0-py3-none-any.whl (10 kB)
+Collecting rfc3986[idna2008]<2,>=1.3
+  Downloading https://www.piwheels.org/simple/rfc3986/rfc3986-1.5.0-py2.py3-none-any.whl (31 kB)
+Collecting httpcore<0.15.0,>=0.14.0
+  Downloading https://www.piwheels.org/simple/httpcore/httpcore-0.14.7-py3-none-any.whl (68 kB)
+Collecting MarkupSafe>=2.0
+  Downloading https://www.piwheels.org/simple/markupsafe/MarkupSafe-2.1.0-cp39-cp39-linux_armv7l.whl (23 kB)
+Collecting text-unidecode>=1.3
+  Downloading https://www.piwheels.org/simple/text-unidecode/text_unidecode-1.3-py2.py3-none-any.whl (78 kB)
+Collecting idna<4,>=2.5
+  Downloading https://www.piwheels.org/simple/idna/idna-3.3-py3-none-any.whl (64 kB)
+Collecting urllib3<1.27,>=1.21.1
+  Downloading https://www.piwheels.org/simple/urllib3/urllib3-1.26.8-py2.py3-none-any.whl (155 kB)
+Collecting pycparser
+  Downloading https://www.piwheels.org/simple/pycparser/pycparser-2.21-py2.py3-none-any.whl (119 kB)
+Collecting anyio==3.*
+  Downloading https://www.piwheels.org/simple/anyio/anyio-3.5.0-py3-none-any.whl (79 kB)
+Collecting h11<0.13,>=0.11
+  Downloading https://www.piwheels.org/simple/h11/h11-0.12.0-py3-none-any.whl (54 kB)
+Installing collected packages: sniffio, idna, rfc3986, pycparser, multidict, h11, frozenlist, certifi, anyio, yarl, voluptuous, urllib3, text-unidecode, six, pytz, MarkupSafe, httpcore, charset-normalizer, cffi, attrs, async-timeout, aiosignal, voluptuous-serialize, typing-extensions, requests, pyyaml, python-slugify, PyJWT, pip, jinja2, ifaddr, httpx, cryptography, ciso8601, bcrypt, awesomeversion, atomicwrites, astral, aiohttp, homeassistant
+  Attempting uninstall: pip
+    Found existing installation: pip 20.3.4
+    Uninstalling pip-20.3.4:
+      Successfully uninstalled pip-20.3.4
+
+Successfully installed MarkupSafe-2.1.0 PyJWT-2.1.0 aiohttp-3.8.1 aiosignal-1.2.0 anyio-3.5.0 astral-2.2 async-timeout-4.0.2 atomicwrites-1.4.0 attrs-21.2.0 awesomeversion-22.1.0 bcrypt-3.1.7 certifi-2021.10.8 cffi-1.15.0 charset-normalizer-2.0.12 ciso8601-2.2.0 cryptography-35.0.0 frozenlist-1.3.0 h11-0.12.0 homeassistant-2022.2.9 httpcore-0.14.7 httpx-0.21.3 idna-3.3 ifaddr-0.1.7 jinja2-3.0.3 multidict-6.0.2 pip-20.2.4 pycparser-2.21 python-slugify-4.0.1 pytz-2021.3 pyyaml-6.0 requests-2.27.1 rfc3986-1.5.0 six-1.16.0 sniffio-1.2.0 text-unidecode-1.3 typing-extensions-4.1.1 urllib3-1.26.8 voluptuous-0.12.2 voluptuous-serialize-2.5.0 yarl-1.7.2
+(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $ 
