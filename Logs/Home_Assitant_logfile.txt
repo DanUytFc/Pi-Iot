@@ -111,9 +111,11 @@ update-alternatives: /usr/bin/automake-1.16 wordt gebruikt om in de automatische
 Bezig met afhandelen van triggers voor man-db (2.9.4-2) ...
 Bezig met afhandelen van triggers voor install-info (6.7.0.dfsg.2-6) ...
 Bezig met afhandelen van triggers voor libc-bin (2.31-13+rpt2+rpi1+deb11u2) ...
-
 pi@RPIDanUyt:~ $ sudo useradd -rm homeassistant -G dialout,gpio,i2c
 pi@RPIDanUyt:~ $cd /srv
 pi@RPIDanUyt:/srv $ sudo mkdir homeassistant
 pi@RPIDanUyt:/srv $ sudo chown homeassistant:homeassistant homeassistant
-pi@RPIDanUyt:/srv $ 
+pi@RPIDanUyt:/srv $ sudo -u homeassistant -H -s
+homeassistant@RPIDanUyt:/srv $ cd /srv/homeassistant
+homeassistant@RPIDanUyt:/srv/homeassistant $ python3.9 -m venv .
+homeassistant@RPIDanUyt:/srv/homeassistant $ 
