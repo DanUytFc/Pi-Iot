@@ -133,4 +133,10 @@ pi@RPIDanUyt:/srv $ sudo -u homeassistant -H -s
 homeassistant@RPIDanUyt:/srv $ cd /srv/homeassistant
 homeassistant@RPIDanUyt:/srv/homeassistant $ python3.9 -m venv .
 homeassistant@RPIDanUyt:/srv/homeassistant $ source bin/activate
-(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $ 
+(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $ python3 -m pip install wheel
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Collecting wheel
+  Downloading https://www.piwheels.org/simple/wheel/wheel-0.37.1-py2.py3-none-any.whl (35 kB)
+Installing collected packages: wheel
+Successfully installed wheel-0.37.1
+(homeassistant) homeassistant@RPIDanUyt:/srv/homeassistant $
