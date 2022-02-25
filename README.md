@@ -47,7 +47,7 @@ pi@RPIDanUyt:~/.config/autostart $
 >Sla je aparte bestanden op in deze repository.
 
 ## Uitbreidingen
-1. Wifi repeater geconfigureerd als router van wlan0(ingebouwde interface) naar wlan1(USB dongle). Encryptie WPA2 met een nieuwe SSID(verborgen). 
+1. Wifi repeater geconfigureerd als router van wlan0(ingebouwde interface) naar wlan1(USB-C dongle). Encryptie WPA2 met een nieuwe SSID(verborgen). 
    * Als leidraad kun je de instructies uit de cursus *RASPBERRY Pi - DEEL 1(4.f Wireless Access Point)* gebruiken. 
    * Dit is enkel een optie voor de *Raspberry Pi Zero 2W* aangezien de *Pi 2 model B Rev 1.1* geen ingebouwde Wifi heeft. 
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope zullen behandeld worden. 
