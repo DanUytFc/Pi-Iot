@@ -24,7 +24,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
    * Home Assistant openen met browser op [URL](http://RPIDanUyt.local:8123). 
-   * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle Powered by Tuya apparaten die u heeft toegevoegd aan de Tuya Smart app. 
+   * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die u heeft toegevoegd aan de *Tuya Smart* app. 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
