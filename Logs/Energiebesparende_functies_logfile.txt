@@ -1,0 +1,19 @@
+#
+# Schakel energiebesparende scherm functies uit
+#
+pi@RPIDanUyt:~ $ mkdir .local/bin
+pi@RPIDanUyt:~ $ cd .local/bin
+pi@RPIDanUyt:~/.local/bin $ vi energiebesparend.sh
+#!/bin/bash
+xset s off
+xset -dpms
+xset s noblank
+pi@RPIDanUyt:~/.local/bin $ chmod +x energiebesparend.sh
+pi@RPIDanUyt:~/.local/bin $ cd
+pi@RPIDanUyt:~ $ mkdir .config/autostart
+pi@RPIDanUyt:~ $ cd .config/autostart
+pi@RPIDanUyt:~/.config/autostart $ vi energiebesparend.desktop
+[Desktop Entry]
+Type=Application
+Exec=/home/pi/.local/bin/energiebesparend.sh
+pi@RPIDanUyt:~/.config/autostart $
