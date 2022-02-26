@@ -1,0 +1,133 @@
+pi@RPIDanUyt:~ $ git clone https://github.com/tuya/tuyaos-link-sdk-python.git
+
+Cloning into 'tuyaos-link-sdk-python'...
+remote: Enumerating objects: 29, done.
+remote: Counting objects: 100% (29/29), done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 29 (delta 7), reused 13 (delta 0), pack-reused 0
+Receiving objects: 100% (29/29), 11.57 KiB | 515.00 KiB/s, done.
+Resolving deltas: 100% (7/7), done.
+pi@RPIDanUyt:~ $ python3 -m pip install ./tuyaos-link-sdk-python
+
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Processing ./tuyaos-link-sdk-python
+Collecting coloredlogs
+  Downloading https://www.piwheels.org/simple/coloredlogs/coloredlogs-15.0.1-py2.py3-none-any.whl (46 kB)
+     |████████████████████████████████| 46 kB 487 kB/s 
+Collecting paho-mqtt>=1.5.1
+  Downloading https://www.piwheels.org/simple/paho-mqtt/paho_mqtt-1.6.1-py3-none-any.whl (75 kB)
+     |████████████████████████████████| 75 kB 36 kB/s 
+Collecting pycryptodome>=3.10.1
+  Downloading https://www.piwheels.org/simple/pycryptodome/pycryptodome-3.14.1-cp35-abi3-linux_armv7l.whl (1.8 MB)
+     |████████████████████████████████| 1.8 MB 1.7 MB/s 
+Collecting qrcode[pil]
+  Downloading https://www.piwheels.org/simple/qrcode/qrcode-7.3.1-py3-none-any.whl (40 kB)
+     |████████████████████████████████| 40 kB 537 kB/s 
+Requirement already satisfied: requests in /usr/lib/python3/dist-packages (from tuyalinksdk==0.0.3) (2.25.1)
+Collecting humanfriendly>=9.1
+  Downloading https://www.piwheels.org/simple/humanfriendly/humanfriendly-10.0-py2.py3-none-any.whl (89 kB)
+     |████████████████████████████████| 89 kB 657 kB/s 
+Requirement already satisfied: pillow in /usr/lib/python3/dist-packages (from qrcode[pil]->tuyalinksdk==0.0.3) (8.1.2)
+Building wheels for collected packages: tuyalinksdk
+  Building wheel for tuyalinksdk (setup.py) ... done
+  Created wheel for tuyalinksdk: filename=tuyalinksdk-0.0.3-py3-none-any.whl size=9831 sha256=868a3b9ee24c928ccb42a218e9183e215a38bf4e7a357768c1b86b18326e5367
+  Stored in directory: /home/pi/.cache/pip/wheels/3c/83/2f/3d200422d2a70d9d00f6bc183358c3a3e12f9f451335da5124
+Successfully built tuyalinksdk
+Installing collected packages: qrcode, humanfriendly, pycryptodome, paho-mqtt, coloredlogs, tuyalinksdk
+Successfully installed coloredlogs-15.0.1 humanfriendly-10.0 paho-mqtt-1.6.1 pycryptodome-3.14.1 qrcode-7.3.1 tuyalinksdk-0.0.3
+pi@RPIDanUyt:~ $ cd /home/pi/tuyaos-link-sdk-python/examples
+pi@RPIDanUyt:~/tuyaos-link-sdk-python/examples $ vi outlet.py 
+Change the parameter of productid to the PID of your product created on the Tuya IoT Platform.
+Change the parameter of uuid to the UUID provided in the license list.
+Change the parameter of authkey to the key provided in the license list.
+pi@RPIDanUyt:~/tuyaos-link-sdk-python/examples $ python3 ./outlet.py
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] DEBUG storage read(region):None
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] DEBUG storage dict:{}
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] DEBUG storage read(regist):None
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] DEBUG storage dict:{}
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] DEBUG storage read(activated):None
+2022-02-26 10:57:19 RPIDanUyt urllib3.connectionpool[17645] DEBUG Starting new HTTPS connection (1): h1.iot-dns.com:443
+2022-02-26 10:57:19 RPIDanUyt urllib3.connectionpool[17645] DEBUG https://h1.iot-dns.com:443 "POST /v1/url_config HTTP/1.1" 200 229
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] DEBUG {'mqtt': {'host': 'm1.tuyaeu.com', 'port': 8883}, 'atop': {'url': 'https://a.tuyaeu.com/d.json'}}
+2022-02-26 10:57:19 RPIDanUyt TuyaClient[17645] WARNING not activated
+2022-02-26 10:57:19 RPIDanUyt TuyaMQTT[17645] DEBUG self.host_:m1.tuyaeu.com
+2022-02-26 10:57:19 RPIDanUyt TuyaMQTT[17645] DEBUG self.port_:8883
+2022-02-26 10:57:19 RPIDanUyt TuyaMQTT[17645] DEBUG self.clientid_:acon_tuya15f839b02b8ba436
+2022-02-26 10:57:19 RPIDanUyt TuyaMQTT[17645] DEBUG self.usermane_:acon_tuya15f839b02b8ba436
+2022-02-26 10:57:19 RPIDanUyt TuyaMQTT[17645] DEBUG self.password_:46ecef61eedff171
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k100) client_id=b'acon_tuya15f839b02b8ba436'
+2022-02-26 10:57:20 RPIDanUyt paho.mqtt.client[17645] DEBUG Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k100) client_id=b'acon_tuya15f839b02b8ba436'
+2022-02-26 10:57:20 RPIDanUyt TuyaClient[17645] INFO >>> https://smartapp.tuya.com/s/p?p=f42uahwxaesazoan&uuid=tuya15f839b02b8ba436&v=2.0
+█████████████████████████████████████████████
+█████████████████████████████████████████████
+████ ▄▄▄▄▄ █ ▀▀█ █▀█▄▄█▀ █ █▀ ▀█ █ ▄▄▄▄▄ ████
+████ █   █ █▄▄▄███ █ ▀ █▄ ▀▄  ▀▄▄█ █   █ ████
+████ █▄▄▄█ █▄▀▀▄▀▀▄ ▀▀█▄▄ ▀▀██▄█ █ █▄▄▄█ ████
+████▄▄▄▄▄▄▄█▄█▄▀ ▀ ▀ █▄█▄█▄▀▄▀▄█▄█▄▄▄▄▄▄▄████
+████▄▀▀   ▄▄▄▀▄ ▄▄ █▀▄▄ ▄▀▄ ▀▀█ ▄▄█▀ █▄ ▄████
+████▄▀▄▄▀▄▄█▀▀█ ▄▄▀▄ ▀ ▀ █▄  ▄█▄ ▄▄ ▄  ▀ ████
+████  █▄▄▄▄ ▄▀▀▀ ▄   ██▄▄▀▀ ▄▀█▀▀█▄█▀ █▀▄████
+████▄█ ▀▀▀▄█ █ ███ ▄▀▄ ▄▄▄ ▀▀▄▄▄▀▀▀▀▄    ████
+████ ▀▀▄██▄▀█▀ ▀▄█ ▄█▀  ▄█ ▄▀▄█ ▄▀▄ █▀▄▄▄████
+████▄██ ▄▄▄█▀▄▄▀▀ █▀ ▄█▄▄█    ▀▄▀▀▀█ ▀██ ████
+████ ▀  ▄▀▄ █▀ ▄▄ ▀▀▄ ▀  █ ▀▄█▄ ▄▄▄▄ ▄▀██████
+████▀▄███▀▄█    ▀ ▀▄▀▀▀█▄█▀▄▄▄█▄█▀  ▀ ▀█▄████
+████ ▀▀▀▀▀▄ ██▄▄▄▄ ███▄▄▀▀█▀▄▀▄ ▀ ▄█▀██▄▄████
+████ ▄▄▄█▀▄▄▀▀▀  ▀▄▄▀█▄  ███▀▄▄▄▄▀   ▀ ▄ ████
+████▄██▄██▄█ ▀▄▄    ▄▀▀▀▀█▄█  ▀  ▄▄▄ ▄ ▄▄████
+████ ▄▄▄▄▄ █ ▀▄█ █▄ ▀▄ ▄█▄ ▄▀  ▀ █▄█ ██▀ ████
+████ █   █ █ ▄▀█▀▀ ▄▄▀ ▀ █▄▀▀▀█▄▄  ▄▄▀█  ████
+████ █▄▄▄█ ██  ▀▀█▄▀█  █ ▄▀▄▀█  ████ ▄ ▀ ████
+████▄▄▄▄▄▄▄█▄▄█▄▄▄█████▄██▄▄▄███▄█▄▄█▄██▄████
+█████████████████████████████████████████████
+▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received CONNACK (0, 0)
+2022-02-26 10:57:20 RPIDanUyt paho.mqtt.client[17645] DEBUG Received CONNACK (0, 0)
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] INFO Connected:{'session present': 0}
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] DEBUG Subscribing:d/ai/tuya15f839b02b8ba436
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending SUBSCRIBE (d0, m1) [(b'd/ai/tuya15f839b02b8ba436', 1)]
+2022-02-26 10:57:20 RPIDanUyt paho.mqtt.client[17645] DEBUG Sending SUBSCRIBE (d0, m1) [(b'd/ai/tuya15f839b02b8ba436', 1)]
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received SUBACK
+2022-02-26 10:57:20 RPIDanUyt paho.mqtt.client[17645] DEBUG Received SUBACK
+2022-02-26 10:57:20 RPIDanUyt TuyaMQTT[17645] DEBUG Subscribed: 1 (1,)
+2022-02-26 10:58:01 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received PUBLISH (d0, q1, r0, m1), 'd/ai/tuya15f839b02b8ba436', ...  (239 bytes)
+2022-02-26 10:58:01 RPIDanUyt paho.mqtt.client[17645] DEBUG Received PUBLISH (d0, q1, r0, m1), 'd/ai/tuya15f839b02b8ba436', ...  (239 bytes)
+2022-02-26 10:58:01 RPIDanUyt TuyaMQTT[17645] DEBUG d/ai/tuya15f839b02b8ba436 1 322e32a9387d890000000000000000652ba433748e0c8352a16cfc1c36d39fb495a19c8cf0bd8956bcd4ab7da8f054d3f93f49a08b48c1b71b532379c4ed5ac7a21c5bbdb0e93513fb38049a157938f6672a439aeb7c2e6a665bc0d0624e74f1b347d2fd5ebb5459ac76bbb30a9ec4389e3fb0a5d7f0fdcd7c9e5a70fa65c4ccd4515c58b372fa64e6f2e53596a193c5c2ade01a07285d9ce04fac1fd9f233b85ea8c873eb0f0b0bf20fb935f6bacb85130b4ed434afe2e6dc2e5d965f3b4a214a6d5710a3c4974c36031fbe19e15bfbff8add8787b001d4bd26f7df98cc43948c7778a16753fdb49bdea0eb115304
+2022-02-26 10:58:01 RPIDanUyt TuyaMQTT[17645] DEBUG message decode:{'data': {'httpUrl': 'http://a.tuyaeu.com/d.json', 'httpsUrl': 'https://a2.tuyaeu.com/d.json', 'region': 'EU', 'stdHttpsUrl': 'https://a1.tuyaeu.com/d.json', 'token': '2gpNM0kv'}, 'protocol': 46, 's': 2260993, 't': 1645869481}
+2022-02-26 10:58:01 RPIDanUyt TuyaClient[17645] DEBUG data:
+2022-02-26 10:58:01 RPIDanUyt TuyaClient[17645] INFO token:2gpNM0kv, region:EU, regist:pro
+2022-02-26 10:58:01 RPIDanUyt TuyaClient[17645] DEBUG storage write(region):EU
+2022-02-26 10:58:01 RPIDanUyt TuyaClient[17645] DEBUG storage write(regist):pro
+2022-02-26 10:58:01 RPIDanUyt urllib3.connectionpool[17645] DEBUG Starting new HTTPS connection (1): h1.iot-dns.com:443
+2022-02-26 10:58:01 RPIDanUyt urllib3.connectionpool[17645] DEBUG https://h1.iot-dns.com:443 "POST /v1/url_config HTTP/1.1" 200 229
+2022-02-26 10:58:01 RPIDanUyt TuyaClient[17645] DEBUG endpoint:{"mqtt": {"host": "m1.tuyaeu.com", "port": 8883}, "atop": {"url": "https://a.tuyaeu.com/d.json"}}
+2022-02-26 10:58:01 RPIDanUyt urllib3.connectionpool[17645] DEBUG Starting new HTTPS connection (1): a.tuyaeu.com:443
+2022-02-26 10:58:02 RPIDanUyt urllib3.connectionpool[17645] DEBUG https://a.tuyaeu.com:443 "POST /d.json?a=tuya.device.active&et=1&t=1645869481&uuid=tuya15f839b02b8ba436&v=4.3&sign=c6844a5c00d36b43067005aad6e302e6 HTTP/1.1" 200 399
+response: {'result': 'hugqyXTwyEpO1hjXWO2eD/RlwFb7eMCHu6O+RzXtAVvwJXWFWF4LBvhwyrvOdkQh8B45/3p93POzPOtgG5hznLw4Wqj+ft0gtcUeEUitI38A2qk2KQQULPIgUgYHC+LgpptrrhYlHKCtHP+2kYh8W0euCuJ9VbRKC3kUbKWNMyeX4pp96oidvjGigUyouI6vpZ8lJzr+iRtOhOTYS+WXzuTWEou0QS+35rqMJsuuG7xxiOrb6bafNLb9f6cM9HwN/XB0NLiHivGpqq/lm3SrZYHMDzr+SoQLAjeG85kJKxMkuZAiN1qtZDIv5XtQ64JNrYOb8zx47Dxq5vbwU1IyZA==', 'sign': 'b4d565aca9c411a2', 't': 1645869482}
+2022-02-26 10:58:02 RPIDanUyt TuyaClient[17645] DEBUG response:
+2022-02-26 10:58:02 RPIDanUyt TuyaClient[17645] DEBUG {'schema': '[{"mode":"rw","id":101,"type":"raw"}]', 'devId': 'bf06a3fc3e5033645cjsyk', 'resetFactory': False, 'capability': 1, 'secKey': '07dd4ce65465eb50', 'schemaId': '0000046ac7', 'localKey': 'bfd274a479bd3a28'}
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending PUBACK (Mid: 1)
+2022-02-26 10:58:02 RPIDanUyt paho.mqtt.client[17645] DEBUG Sending PUBACK (Mid: 1)
+2022-02-26 10:58:02 RPIDanUyt TuyaClient[17645] INFO Activated!
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending DISCONNECT
+2022-02-26 10:58:02 RPIDanUyt paho.mqtt.client[17645] DEBUG Sending DISCONNECT
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] INFO Disconnect
+2022-02-26 10:58:02 RPIDanUyt TuyaClient[17645] DEBUG storage write(activated):{'schema': '[{"mode":"rw","id":101,"type":"raw"}]', 'devId': 'bf06a3fc3e5033645cjsyk', 'resetFactory': False, 'capability': 1, 'secKey': '07dd4ce65465eb50', 'schemaId': '0000046ac7', 'localKey': 'bfd274a479bd3a28'}
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG self.host_:m1.tuyaeu.com
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG self.port_:8883
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG self.clientid_:bf06a3fc3e5033645cjsyk
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG self.usermane_:bf06a3fc3e5033645cjsyk
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG self.password_:85bbe0118ab83496
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending CONNECT (u1, p1, wr0, wq0, wf0, c1, k100) client_id=b'bf06a3fc3e5033645cjsyk'
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received CONNACK (0, 0)
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] INFO Connected:{'session present': 0}
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG Subscribing:smart/device/in/bf06a3fc3e5033645cjsyk
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending SUBSCRIBE (d0, m1) [(b'smart/device/in/bf06a3fc3e5033645cjsyk', 1)]
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received SUBACK
+2022-02-26 10:58:02 RPIDanUyt TuyaMQTT[17645] DEBUG Subscribed: 1 (1,)
+2022-02-26 10:58:02 RPIDanUyt TuyaClient[17645] INFO MQTT EVENT:CONNECTED
+Connected.
+2022-02-26 10:59:42 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending PINGREQ
+2022-02-26 10:59:42 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received PINGRESP
+2022-02-26 11:01:22 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Sending PINGREQ
+2022-02-26 11:01:22 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received PINGRESP
