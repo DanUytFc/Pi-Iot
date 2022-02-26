@@ -24,7 +24,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
      * Home Assistant openen met browser op [URL](http://RPIDanUyt.local:8123). 
-   * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
+   * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. Tuya Cloud *Pi-Iot* project.
 
 3. Connecteer Raspberry Pi met de Smart App [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi), [Connect Raspbarry Pi to Smart App through Tuya Cloud](https://www.youtube.com/watch?app=desktop&v=Xo1gfOQZyx4).
 
