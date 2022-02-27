@@ -26,6 +26,9 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
      * Home Assistant openen met Raspberry Chromium browser op [URL](http://RPIDanUyt.local:8123). 
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project.
+
+3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
+   * Tuya product *Pi-Iot BEK38*.
 ```
 pi@RPIDanUyt:~ $ git clone https://github.com/tuya/tuyaos-link-sdk-python.git
 pi@RPIDanUyt:~ $ python3 -m pip install ./tuyaos-link-sdk-python
@@ -36,9 +39,6 @@ Change the parameter of uuid to the UUID provided in the license list.
 Change the parameter of authkey to the key provided in the license list.
 pi@RPIDanUyt:~/tuyaos-link-sdk-python/examples $ python3 ./outlet.py
 ```
-3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
-   * Tuya product *Pi-Iot BEK38*.
-
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 >Sla je aparte bestanden op in deze repository.
