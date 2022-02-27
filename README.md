@@ -24,10 +24,11 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
      * Home Assistant openen met Raspberry Chromium browser op [URL](http://RPIDanUyt.local:8123). 
+   * Sonos integratie d.m.v. automatische discovery procedure. 
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project.
-   * Sonos integratie d.m.v. automatische discovery procedure. 
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
+   * [aspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
 
 3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
    * Tuya product *Pi-Iot BEK38*.
