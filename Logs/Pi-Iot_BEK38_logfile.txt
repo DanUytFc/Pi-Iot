@@ -1,3 +1,7 @@
+
+*
+* Connecteer Raspberry Pi Model B Rev 1.1 met de Tuya Smart Life app
+*
 pi@RPIDanUyt:~ $ git clone https://github.com/tuya/tuyaos-link-sdk-python.git
 
 Cloning into 'tuyaos-link-sdk-python'...
