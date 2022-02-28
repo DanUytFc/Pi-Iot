@@ -36,9 +36,9 @@ pi@RPIDanUyt:~ $ git clone https://github.com/tuya/tuyaos-link-sdk-python.git
 pi@RPIDanUyt:~ $ python3 -m pip install ./tuyaos-link-sdk-python
 pi@RPIDanUyt:~ $ cd /home/pi/tuyaos-link-sdk-python/examples
 pi@RPIDanUyt:~/tuyaos-link-sdk-python/examples $ vi outlet.py 
-*Change the parameter of productid to the PID of your product created on the Tuya IoT Platform.*
-*Change the parameter of uuid to the UUID provided in the license list.*
-*Change the parameter of authkey to the key provided in the license list.*
+Change the parameter of productid to the PID of your product created on the Tuya IoT Platform.
+Change the parameter of uuid to the UUID provided in the license list.
+Change the parameter of authkey to the key provided in the license list.
 pi@RPIDanUyt:~/tuyaos-link-sdk-python/examples $ python3 ./outlet.py
 ```
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
