@@ -31,6 +31,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file. 
 3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
    * Tuya product *Pi-Iot BEK38*.
+      - [ ] MQTT protocol. Notificatie indien device offline is. 
 ```
 pi@RPIDanUyt:~ $ git clone https://github.com/tuya/tuyaos-link-sdk-python.git
 pi@RPIDanUyt:~ $ python3 -m pip install ./tuyaos-link-sdk-python
