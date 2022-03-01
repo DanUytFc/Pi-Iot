@@ -29,6 +29,40 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
    ```
    configuration.yaml
+   # Configure a default setup of Home Assistant (frontend, api, etc)
+default_config:
+
+# Text to speech
+tts:
+  - platform: google_translate
+
+# Automatisering
+automation: !include automations.yaml
+
+# Scripts
+script: !include scripts.yaml
+
+# Scenes
+scene: !include scenes.yaml
+
+# Add Spotify Daniel Free
+spotify:
+  client_id: 5c71771143a34e0993562d9450aedcb2
+  client_secret: b61ef8b995774d1fa21b003212fc9800
+
+# Brother Printer
+template:
+  - binary_sensor:
+    - name: 'Brother Printer status: lade nazien '
+      state: >
+        {{ is_state('sensor.mfc_j497dw_status', 'lade nazien [lade #1]') }}
+
+# Python Scripts
+python_script:
+
+# Logger
+# logger:
+
    ```
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] ***Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.***
