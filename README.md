@@ -28,6 +28,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project.
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
+     - Beperking: de play buttons werken enkel indien er een Premium abonnement is.
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] ***Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.***
 
@@ -65,7 +66,7 @@ logger:
 
 3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
    * Tuya product *Pi-Iot BEK38*.
-      - [ ] ***MQTT protocol. Notificatie indien device offline is.***
+      - [ ] ***Beperking: complexe notificaties, zoals MQTT device offline, enkel mogelijk met een Premium upgrade.***
 ```ruby
 client.connect()
     client.loop_start()
