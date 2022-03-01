@@ -64,8 +64,8 @@ logger:
    * Tuya product *Pi-Iot BEK38*.
       - [ ] ***MQTT protocol. Notificatie indien device offline is.***
 
-```
-# Example configuration.yaml entry
+```ruby
+# Debug logger voor MQTT
 logger:
   default: warning
   logs:
