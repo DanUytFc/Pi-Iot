@@ -45,8 +45,8 @@ script: !include scripts.yaml
 scene: !include scenes.yaml
 # Add Spotify Daniel Free
 spotify:
-  client_id: 5c71771143a34e0993562d9450aedcb2
-  client_secret: b61ef8b995774d1fa21b003212fc9800
+  client_id: YOUR_CLIENT_ID
+  client_secret: YOUR_CLIENT_SECRET
 # Brother Printer
 template:
   - binary_sensor:
