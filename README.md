@@ -24,7 +24,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
      * Home Assistant openen met Raspberry Chromium browser op [URL](http://RPIDanUyt.local:8123). 
-       - [ ] Herstarten van Home Assistant server lukt niet. 
+       - [ ] ***Herstarten van Home Assistant server lukt niet.*** 
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project.
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
