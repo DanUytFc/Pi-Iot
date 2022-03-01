@@ -52,7 +52,7 @@ template:
   - binary_sensor:
     - name: 'Brother Printer status: lade nazien '
       state: >
-        {{ is_state('sensor.mfc_j497dw_status', 'lade nazien [lade #1]') }}
+        {{ is_state('sensor.<YOUR_PRINTER>_status', 'lade nazien [lade #1]') }}
 # Python Scripts
 python_script:
 # Logger
