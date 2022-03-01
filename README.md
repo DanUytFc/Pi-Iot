@@ -27,6 +27,15 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
        - [ ] Herstarten van Home Assistant server lukt niet. 
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project.
+
+```ruby
+# Debug logger voor MQTT
+logger:
+  default: warning
+  logs:
+    homeassistant.components.mqtt: debug
+```
+
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] ***Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.***
@@ -65,13 +74,6 @@ logger:
    * Tuya product *Pi-Iot BEK38*.
       - [ ] ***MQTT protocol. Notificatie indien device offline is.***
 
-```ruby
-# Debug logger voor MQTT
-logger:
-  default: warning
-  logs:
-    homeassistant.components.mqtt: debug
-```
 4. In de YouTube video staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen: Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
 
 ```
