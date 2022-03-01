@@ -72,7 +72,23 @@ logger:
   logs:
     homeassistant.components.mqtt: debug
 ```
+4. In de YouTube video staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen: Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
 
+```
+sudo apt update
+sudo apt full-upgrade
+# installeer Python 3 virtuele omgeving specifiek voor onze applicatie
+sudo apt-get install python3-venv
+# installatie directory
+mkdir RPI-GF
+cd RPI-GF
+# creatie virtuele omgeving
+python3 -m venv GF
+# activeer virtuele omgeving
+. GF/bin/activate
+```
+
+Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie video. 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 >Sla je aparte bestanden op in deze repository.
