@@ -73,7 +73,7 @@ python_script:
 logger:
   default : warning
   logs:
-    homeassistant.components.mqtt: debug
+    custom_components.localtuya: debug
 ```
 
 3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
