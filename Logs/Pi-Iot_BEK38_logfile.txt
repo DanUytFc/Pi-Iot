@@ -137,13 +137,15 @@ Connected.
 2022-02-26 11:01:22 RPIDanUyt TuyaMQTT[17645] DEBUG log >>>> Received PINGRESP
 
 #
-# Autostart outlet.py
+# Autostart pi-iot_bek38.py
 #
+pi@RPIDanUyt:~ $ cd /home/pi/tuyaos-link-sdk-python/examples
+pi@RPIDanUyt:~/tuyaos-link-sdk-python/examples $ cp outlet.py pi-iot_bek38.py
 pi@RPIDanUyt:~ $ cd .local/bin
 pi@RPIDanUyt:~/.local/bin $ vi tuya_pi-iot.sh
 #!/bin/bash
 cd /home/pi/tuyaos-link-sdk-python/examples
-python3 ./outlet.py
+python3 ./pi-iot_bek38.py
 pi@RPIDanUyt:~/.local/bin $ chmod +x tuya_pi-iot.sh
 pi@RPIDanUyt:~ $ cd :~/.config/autostart
 pi@RPIDanUyt:~/.config/autostart $ vi tuya_pi-iot.desktop
