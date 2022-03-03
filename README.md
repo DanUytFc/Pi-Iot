@@ -80,9 +80,9 @@ logger:
    * Tuya product *Pi-Iot BEK38*.
       - [ ] *Beperking:* complexe notificaties, zoals MQTT device offline, enkel mogelijk met een Premium upgrade.
 ```ruby
-client.connect()
-    client.loop_start()
-// Tuya IoT SDK service tasks such as handling data and keepalive mechanism.
+// Tuya IoT SDK service tasks such as handling data and keepalive mechanism.client.connect()
+client.loop_start()
+client.push_dps({'102': True})
 ```
 
 4. In de YouTube video staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen: Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
