@@ -29,7 +29,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project. Automatisch discovery Tuya waarin volgende gegevens moeten ingegeven worden:
 ```ruby
-- *Tuya IoT Access ID*
+- Tuya IoT Access ID
 Ga naar je cloud project op Tuya IoT Platform. Access ID vind je onder Authorization Key in het Project Overview tab.
 - Tuya IoT Access Secret
 Ga naar je cloud project op Tuya IoT Platform. Access Secret vind je onder Authorization Key in het Project Overview tab.
