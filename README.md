@@ -27,15 +27,15 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
        - *Beperking:* Home Assistant app remote toegang is enkel mogelijk via Home Assistant Cloud abonnement. 
        - [ ] Herstarten van Home Assistant server lukt niet.
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
-     * Tuya Cloud *Pi-Iot* project. Automatisch discovery Tuya:
+     * Tuya Cloud *Pi-Iot* project. Automatisch discovery Tuya.
 ```ruby
-Tuya IoT Access ID
+- Tuya IoT Access ID
 Go to your cloud project on Tuya IoT Platform. Find the Access ID under Authorization Key on the Project Overview tab.
-Tuya IoT Access Secret
+- Tuya IoT Access Secret
 Go to your cloud project on Tuya IoT Platform. Find the Access Secret under Authorization Key on the Project Overview tab.
-Account
+- Account
 Tuya Smart or Smart Life app account.
-Password
+- Password
 The password of your app account.
 ```
 
