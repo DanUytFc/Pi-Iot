@@ -82,6 +82,7 @@ logger:
 ```ruby
 // Tuya IoT SDK service tasks such as handling data and keepalive mechanism.client.connect()
 client.loop_start()
+client.push_dps({'101': "Hello World"})
 client.push_dps({'102': True})
 ```
 
