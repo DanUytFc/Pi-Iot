@@ -132,7 +132,7 @@ Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://
 
 3. PiJuice
 
-![PiJuice](Images/raspberry-pi-zero-2-w-hero-800x535.jpg)
+![PiJuice](Images/PiJuice_HAT.jpg)
 
 ## Nuttige commando's
 | Command | Description |
