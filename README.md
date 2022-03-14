@@ -119,7 +119,7 @@ Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://
    * Dit is enkel een optie voor de *Raspberry Pi Zero 2W* aangezien de *Pi 2 model B Rev 1.1* geen ingebouwde Wifi heeft. 
 2. Wireshark netwerk tracing tool: 
    * Instructies hiervoor zijn beschikbaar op  [Project: Installing Wireshark on Raspberry Pi](https://unboxing-tomorrow.com/project-installing-wireshark-on-raspberry-pi/).
-3. UPS
+3. *PiJuice* Uninterruptible Power Supply (UPS) die er voor zorgt dat je Pi altijd stroom heeft.
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope zullen behandeld worden. 
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
@@ -129,6 +129,10 @@ Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://
 2. Raspberry Pi Zero 2 W:
 
 ![Raspberry Pi Zero 2 W](Images/raspberry-pi-zero-2-w-hero-800x535.jpg)
+
+3. PiJuice
+
+![PiJuice](Images/raspberry-pi-zero-2-w-hero-800x535.jpg)
 
 ## Nuttige commando's
 | Command | Description |
