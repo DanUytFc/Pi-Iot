@@ -17,6 +17,7 @@ De implementatie vereist 2 Raspberry Pi boards:
 2. *Raspberry Pi Zero 2 W:* installatie op afstand.
      * Aangezien hardware levering een probleem is in deze pandemie periode zal ik terugvallen op de beschikbare *ESP8266 Wemos D1 mini en Arduino IDE*. Zodra de Raspberry Pi Zero 2W terug beschikbaar is zal de installatie op afstand hiernaar gemigreerd worden. 
 ## Software
+>Raspberry Pi 2 Model B Rev 1.1:* installatie thuis
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS***. 
 1. Schakel energiebesparende scherm functies uit. Dit is noodzakelijk bij gebruik in het leslokaar. Anders blokkeert het scherm en is een reboot noodzakelijk. Raadpleeg de [log file](Logs/Energiebesparende_functies_logfile.txt) voor meer details. 
 
