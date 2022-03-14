@@ -129,7 +129,11 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 ![Raspberry Pi Zero 2 W](Images/raspberry-pi-zero-2-w-hero-800x535.jpg)
 
-3. PiJuice
+3. ESP8266 Wemos D1 mini: 
+
+![ESP8266 Wemos D1 mini](Images/WEMOS_D1_MINI?jpg)
+
+4. PiJuice
 
 ![PiJuice](Images/PiJuice_HAT.png)
 
