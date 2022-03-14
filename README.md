@@ -47,39 +47,39 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
    * [Brother Printer](https://www.home-assistant.io/integrations/brother) and [Internet Printing Protocol(IPP)](https://www.home-assistant.io/integrations/ipp) integratie. Automatische discovery en configuratie voor 'out-of-paper' detectie. 
 
-**/home/homeassistant/.homeassistant/configuration.yaml**
+   **/home/homeassistant/.homeassistant/configuration.yaml**
 
-```ruby
-# Configure a default setup of Home Assistant (frontend, api, etc)
-default_config:
-# Text to speech
-tts:
-  - platform: google_translate
-# Automatisering
-automation: !include automations.yaml
-# Scripts
-script: !include scripts.yaml
-# Scenes
-scene: !include scenes.yaml
-# Add Spotify Daniel Free
-spotify:
-  client_id: YOUR_CLIENT_ID
-  client_secret: YOUR_CLIENT_SECRET
-# Brother Printer
-template:
-  - binary_sensor:
-    - name: 'Brother Printer status: lade nazien '
-      state: >
-        {{ is_state('sensor.<YOUR_PRINTER>_status', 'lade nazien [lade #1]') }}
-# Python Scripts
-python_script:
-# Logger
-logger:
-  default : warning
-  logs:
-    custom_components.localtuya: debug
-    homeassistant.components.mqtt: debug
-```
+   ```ruby
+   # Configure a default setup of Home Assistant (frontend, api, etc)
+   default_config:
+   # Text to speech
+   tts:
+     - platform: google_translate
+   # Automatisering
+   automation: !include automations.yaml
+   # Scripts
+   script: !include scripts.yaml
+   # Scenes
+   scene: !include scenes.yaml
+   # Add Spotify Daniel Free
+   spotify:
+     client_id: YOUR_CLIENT_ID
+     client_secret: YOUR_CLIENT_SECRET
+   # Brother Printer
+   template:
+     - binary_sensor:
+       - name: 'Brother Printer status: lade nazien '
+         state: >
+           {{ is_state('sensor.<YOUR_PRINTER>_status', 'lade nazien [lade #1]') }}
+   # Python Scripts
+   python_script:
+   # Logger
+   logger:
+     default : warning
+     logs:
+       custom_components.localtuya: debug
+       homeassistant.components.mqtt: debug
+   ```
 
 3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
    * Tuya product *Pi-Iot BEK38*.
