@@ -132,7 +132,7 @@ Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://
 
 3. PiJuice
 
-![PiJuice](Images/PiJuice_HAT.jpg)
+![PiJuice](Images/PiJuice_HAT.png)
 
 ## Nuttige commando's
 | Command | Description |
