@@ -47,7 +47,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
    * [Brother Printer](https://www.home-assistant.io/integrations/brother) and [Internet Printing Protocol(IPP)](https://www.home-assistant.io/integrations/ipp) integratie. Automatische discovery en configuratie voor 'out-of-paper' detectie. 
 
-     **/home/homeassistant/.homeassistant/configuration.yaml**
+   **/home/homeassistant/.homeassistant/configuration.yaml**
 
    ```ruby
    # Configure a default setup of Home Assistant (frontend, api, etc)
