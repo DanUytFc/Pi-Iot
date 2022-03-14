@@ -1,4 +1,4 @@
-![Pi-Iot_Archiecture](Images/Pi-Iot_Architecture.bmp)
+![Pi-Iot_Archiecture](Images/Pi-Iot_Architecture.png)
 # Pi-Iot
 ## Beschrijving
 Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als op afstand zoals tweede verblijf. 
