@@ -43,7 +43,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
      - *Beperking:* de play buttons werken enkel indien er een Premium abonnement is.
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
-   * [Brother printer integratie](https://www.home-assistant.io/integrations/brother) and [Internet printing protocol]https://www.home-assistant.io/integrations/ipp).
+   * [Brother printer integratie](https://www.home-assistant.io/integrations/brother) and [Internet Printing Protocol(IPP)](https://www.home-assistant.io/integrations/ipp). Automatische discovery. 
 
 **/home/homeassistant/.homeassistant/configuration.yaml**
 ```ruby
