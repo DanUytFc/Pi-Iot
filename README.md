@@ -45,7 +45,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
 
 ```ruby
-/home/homeassistant/.homeassistant/configuration.yaml
+**/home/homeassistant/.homeassistant/configuration.yaml**
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 # Text to speech
