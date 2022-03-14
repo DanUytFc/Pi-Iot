@@ -27,7 +27,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
      * Home Assistant openen met Raspberry Chromium browser op [URL](http://RPIDanUyt.local:8123).
        - *Beperking:* Home Assistant app remote toegang is enkel mogelijk via Home Assistant Cloud abonnement. 
        - [ ] Herstarten van Home Assistant server lukt niet.
-   * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
+   * [Tuya](https://www.home-assistant.io/integrations/tuya) integratie van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project. Automatische discovery Tuya waarin volgende gegevens moeten ingevoerd worden:
      
      ```ruby
@@ -41,13 +41,14 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
      Het paswoord van je app account.
      ```
      
-   * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
+   * [Spotify](https://www.home-assistant.io/integrations/spotify/) integratie d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
      - *Beperking:* de play buttons werken enkel indien er een Premium abonnement is.
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
-   * [Brother Printer](https://www.home-assistant.io/integrations/brother) and [Internet Printing Protocol(IPP)](https://www.home-assistant.io/integrations/ipp) integratie. Automatische discovery. 
+   * [Brother Printer](https://www.home-assistant.io/integrations/brother) and [Internet Printing Protocol(IPP)](https://www.home-assistant.io/integrations/ipp) integratie. Automatische discovery met 'out-of-paper' configuratie detectie. 
 
 **/home/homeassistant/.homeassistant/configuration.yaml**
+
 ```ruby
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
@@ -83,12 +84,13 @@ logger:
 3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
    * Tuya product *Pi-Iot BEK38*.
       - [ ] *Beperking:* complexe notificaties, zoals MQTT device offline, enkel mogelijk met een Premium upgrade.
-```ruby
-// Tuya IoT SDK service tasks such as handling data and keepalive mechanism.client.connect()
-client.loop_start()
-client.push_dps({'101': "Hello World"})
-client.push_dps({'102': True})
-```
+
+      ```ruby
+      // Tuya IoT SDK service tasks such as handling data and keepalive mechanism.client.connect()
+      client.loop_start()
+      client.push_dps({'101': "Hello World"})
+      client.push_dps({'102': True})
+      ```
 
 4. In de YouTube video staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen: Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
 
