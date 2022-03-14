@@ -10,7 +10,7 @@ Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worde
 - [ ] Een notificatie op begin van de maand herinnert mij eraan om deze meters af te lezen op specifieke teller of app en manueel in te voeren. Voor meters op afstand zou dit geautomatiseerd moeten worden door de gegevens iedere 15min door te sturen. 
 - [ ] Door het invoeren van een slimme thermostaat kan het gasverbruik voor de verwarming geoptimaliseerd worden. Dit moet verder verfijnt worden door de nachtstand van de verwarming te activeren om 22:00.
 - [ ] De status van de Raspberry Pi(on/off-line, on/off-power) voor thuis en op afstand moet kunnen opgevolgd worden d.m.v. iOS app(Home Assistant, Tuya Smart Life). 
-  * In de YouTube video staan commando's die moeten uitgevoerd worden op de Raspberry Pi vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen: Op YouTube is er een video over [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) die als referentie zal gebruikt worden. 
+  * YouTube video [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) wordt als referentie gebruikt. Hierin staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen. Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie video. 
 
   ```ruby
   sudo apt update
@@ -26,7 +26,6 @@ Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worde
   . GF/bin/activate
   ```
   
-  Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie video. 
 - [ ] Notificaties worden naar iOS Tuya Smart Life/IFTTT app en Smartwatch gestuurd. 
 ## Hardware
 De implementatie vereist 2 Raspberry Pi boards: 
