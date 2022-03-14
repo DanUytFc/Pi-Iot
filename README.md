@@ -39,7 +39,7 @@ Smart Life app account.
 - Password
 Het paswoord van je app account.
 ```
-2.
+2. ffff:
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
      - *Beperking:* de play buttons werken enkel indien er een Premium abonnement is.
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
