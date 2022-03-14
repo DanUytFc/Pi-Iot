@@ -37,10 +37,10 @@ Ga naar je cloud project op Tuya IoT Platform. Access Secret vind je onder Autho
 - Account
 Smart Life app account.
 - Password
-Het password van je app account.
+Het paswoord van je app account.
 ```
 
-   * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
+     * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
      - *Beperking:* de play buttons werken enkel indien er een Premium abonnement is.
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
