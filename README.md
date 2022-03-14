@@ -131,7 +131,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 3. ESP8266 Wemos D1 mini: 
 
-![ESP8266 Wemos D1 mini](Images/WEMOS_D1_MINI?jpg)
+![ESP8266 Wemos D1 mini](Images/WEMOS_D1_MINI.jpg)
 
 4. PiJuice
 
