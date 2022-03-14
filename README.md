@@ -44,8 +44,9 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
 
-```ruby
+
 **/home/homeassistant/.homeassistant/configuration.yaml**
+```ruby
 # Configure a default setup of Home Assistant (frontend, api, etc)
 default_config:
 # Text to speech
