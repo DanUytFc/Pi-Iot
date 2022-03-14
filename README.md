@@ -29,17 +29,16 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
        - [ ] Herstarten van Home Assistant server lukt niet.
    * [Tuya integratie](https://www.home-assistant.io/integrations/tuya) van alle *Powered by Tuya* apparaten die toegevoegd zijn aan de *Tuya Smart* app. 
      * Tuya Cloud *Pi-Iot* project. Automatische discovery Tuya waarin volgende gegevens moeten ingevoerd worden:
-
-```ruby
-- Tuya IoT Access ID
-Ga naar je cloud project op Tuya IoT Platform. Access ID vind je onder Authorization Key in het Project Overview tab.
-- Tuya IoT Access Secret
-Ga naar je cloud project op Tuya IoT Platform. Access Secret vind je onder Authorization Key in het Project Overview tab.
-- Account
-Smart Life app account.
-- Password
-Het paswoord van je app account.
-```
+     ```ruby
+     - Tuya IoT Access ID
+     Ga naar je cloud project op Tuya IoT Platform. Access ID vind je onder Authorization Key in het Project Overview tab.
+     - Tuya IoT Access Secret
+     Ga naar je cloud project op Tuya IoT Platform. Access Secret vind je onder Authorization Key in het Project Overview tab.
+    - Account
+    Smart Life app account.
+   - Password
+   Het paswoord van je app account.
+   ```
    * [Spotify integratie](https://www.home-assistant.io/integrations/spotify/) d.m.v. manuele configuratie via *Spotify Application*. Automatische discovery wordt afgebroken t.g.v. probleem met callback URI. 
      - *Beperking:* de play buttons werken enkel indien er een Premium abonnement is.
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
