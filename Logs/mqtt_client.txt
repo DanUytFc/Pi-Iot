@@ -1,0 +1,15 @@
+pi@RPIDanUyt:~ $ mkdir python-paho-hivemq-cloud
+pi@RPIDanUyt:~ $ cd python-paho-hivemq-cloud/
+pi@RPIDanUyt:~/python-paho-hivemq-cloud $ python -
+Python 3.9.2 (default, Mar 12 2021, 04:06:34) 
+[GCC 10.2.1 20210110] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> quit()
+pi@RPIDanUyt:~/python-paho-hivemq-cloud $ pip3 install paho-mqtt 
+Looking in indexes: https://pypi.org/simple, https://www.piwheels.org/simple
+Requirement already satisfied: paho-mqtt in /home/pi/.local/lib/python3.9/site-packages (1.6.1)
+pi@RPIDanUyt:~/python-paho-hivemq-cloud $ vi mqtt_client.py
+pi@RPIDanUyt:~/python-paho-hivemq-cloud $ python mqtt_client.py
+CONNACK received with code Success.
+Subscribed: 1 [<paho.mqtt.reasoncodes.ReasonCodes object at 0x761da208>]
+mid: 2
