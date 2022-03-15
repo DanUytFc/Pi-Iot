@@ -134,7 +134,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
-1. Slimme thermostaat Vaillant vSmart uitzetten van de manuele mode om 22:00 iedere avond. 
+1. Slimme thermostaat Vaillant vSmart: uitzetten manuele mode iedere avond om 22:00. Raadpleeg het [Python script](Sources/vSmart_Manual_Disable.py) voor meer details. 
 >Sla je aparte bestanden op in deze repository.
 
 ## Uitbreidingen
