@@ -129,7 +129,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    if (client->connect(clientId.c_str(), "your_login", "your_password")) 
    
    Publish to topic: Energy_Report
-   Subscribe to topic: Energy_ACK
+   Subscribe to topic: Energy_Ack
    ```
    
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
