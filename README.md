@@ -116,7 +116,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * Deze IDE wordt eveneens op de iMac geinstalleerd voor het gebruiksgemak en snelheid. Hierbij moet de [CH340/CH341 USB to serial port MAC OS driver](http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html) geactiveerd worden voor communicatie tussen iMac en ESP8266. 
 
 6. Gratis MQTT cloud broker voor communicatie tussen *Raspberry Pi* en *ESP8266*: 
-   * [HiveMQ Cloud](https://console.hivemq.cloud/?utm_source=hivemq-com&utm_medium=cloud-broker-page&utm_campaign=cloud) Raspberry Python en Arduino ESP8266 client installatie. Raadpleeg [log file](Logs/mqtt_client.txt) voor meer details.
+   * [HiveMQ Cloud](https://console.hivemq.cloud/?utm_source=hivemq-com&utm_medium=cloud-broker-page&utm_campaign=cloud) Raspberry Python en Arduino IDE using ESP8266 client installatie. Raadpleeg [log file](Logs/mqtt_client.txt) voor meer details.
 
    ```ruby
    # "your_password" aanpassen in mqtt_client.py. Login naam is reeds automatisch ingevuld. 
