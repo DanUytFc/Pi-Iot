@@ -145,6 +145,7 @@ print("The exit code was: %d" % list_files.returncode)
 
 5. Notificatie via [IFTTT ](https://ifttt.com/explore) met verschillende values voor power of internet outage.
 6. Een *pip3 deployment package* van je eigen code. 
+7. [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
 ## Software
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
