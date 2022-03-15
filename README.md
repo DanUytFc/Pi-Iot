@@ -126,11 +126,12 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    
    mqtt sketch: Arduino IDE
    // Insert your password
-   if (client->connect(clientId.c_str(), "your_login", "your_password")) {   
-   ```     
+   if (client->connect(clientId.c_str(), "your_login", "your_password")) 
    
+   Publish to topic: Energy_Report
+   Subscribe to topic: Energy_ACK
+   ```
    
-      
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
 >Sla je aparte bestanden op in deze repository.
