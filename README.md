@@ -112,7 +112,8 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
       client.push_dps({'102': True})
       ```
 
-5. [Installeer Arduino IDE op Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/) om de ESP8266 te programeren. Voeg support toe voor het ESP8266 board. Deze IDE wordt eveneens op de iMac geinstalleerd voor het gebruiksgemak en snelheid. Raadpleeg de [log file](Logs/Arduino_IDE.txt) voor meer details. 
+5. [Installeer Arduino IDE op Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/) om de ESP8266 te programeren. Voeg support toe voor het ESP8266 board. Raadpleeg de [log file](Logs/Arduino_IDE.txt) voor meer details. 
+   * Deze IDE wordt eveneens op de iMac geinstalleerd voor het gebruiksgemak en snelheid. Hierbij moet de CH340/CH341 USB to serial port MAC OS driver geinstalleerd worden voor communicatie tussen iMac en ESP8266. 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
