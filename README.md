@@ -139,6 +139,8 @@ route -n
 import subprocess
 list_files = subprocess.run(["ls", "-l"])
 print("The exit code was: %d" % list_files.returncode)
+
+# uhubctl gebruiken om USB poorten te (des)-activeren. 
 ```
 
 5. Notificatie via [IFTTT ](https://ifttt.com/explore) met verschillende values voor power of internet outage.
