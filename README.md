@@ -167,7 +167,7 @@ print(response.text)
 Basic information:
 {"product_type":"SDM230-wifi","product_name":"KWh meter","serial":"3c39e723cab2","firmware_version":"2.11","api_version":"v1"}
 Recent measurement:
-{"wifi_ssid":"frodoWLANA","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
+{"wifi_ssid":"WifiSSID","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
 ```
 
 ## Software
