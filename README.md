@@ -123,6 +123,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * Instructies hiervoor zijn beschikbaar op  [Project: Installing Wireshark on Raspberry Pi](https://unboxing-tomorrow.com/project-installing-wireshark-on-raspberry-pi/).
 3. *PiJuice* Uninterruptible Power Supply (UPS) die er voor zorgt dat je Pi altijd stroom heeft.
 4. Tijdelijk overschakelen naar GSM mobile data netwerk(4G) indien Wifi internet weggevallen is. Implementatie gebaseerd op beschikbare [Huawei E8372h-153 - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png). 
+5. Notificatie via [IFTTT ](https://ifttt.com/?utm_medium=Email&utm_source=Customerio&utm_campaign=User_Template&utm_term=IFTTT_Logo&utm_content=). Verschillende values voor een power of internet outage.
 ## Software
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
