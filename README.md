@@ -137,6 +137,8 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 1. Slimme thermostaat Vaillant vSmart: uitzetten manuele mode iedere avond om 22:00. Raadpleeg het [Python script](Sources/vSmart_Manual_Disable.py) voor meer details. 
 >Sla je aparte bestanden op in deze repository.
 
+
+
 ## Uitbreidingen
 1. Wifi repeater geconfigureerd als router van wlan0(ingebouwde interface) naar wlan1(USB-C dongle). Encryptie WPA2 met een nieuwe SSID(verborgen):
    * Als leidraad kun je de instructies uit de cursus *RASPBERRY Pi - DEEL 1(4.f Wireless Access Point)* gebruiken. 
@@ -146,7 +148,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 3. *PiJuice* Uninterruptible Power Supply (UPS) die er voor zorgt dat je Pi altijd stroom heeft.
 4. Tijdelijk overschakelen naar GSM mobile data netwerk(4G) indien Wifi internet weggevallen is. Implementatie gebaseerd op beschikbare [Huawei E8372h-153 - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png). 
 
-```
+```ruby
 sudo apt install rfkill
 # Disable Wifi
 sudo rfkill block wifi
@@ -169,7 +171,7 @@ print("The exit code was: %d" % list_files.returncode)
 6. Een *pip3 deployment package* van je eigen code. 
 7. [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
 
-```
+```ruby
 import requests
 
 # Basic information
@@ -185,7 +187,7 @@ print("Recent measurement:")
 print(response.text)
 ```
 
-```
+```ruby
 Basic information:
 {"product_type":"SDM230-wifi","product_name":"KWh meter","serial":"3c39e723cab2","firmware_version":"2.11","api_version":"v1"}
 Recent measurement:
@@ -194,7 +196,7 @@ Recent measurement:
 
 8. Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api).
 
-```
+```ruby
 import urllib.request, json
 import datetime
 
@@ -210,7 +212,7 @@ print (data)
 print ('Temperatuur in %s op %s is %s graden Celcius' % (plaats, datetime.datetime.fromtimestamp(temp2), temp))
 ```
 
-```
+```ruby
 {'coord': {'lon': 3.027, 'lat': 51.1296}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 10.61, 'feels_like': 9.87, 'temp_min': 7.97, 'temp_max': 12.23, 'pressure': 1016, 'humidity': 82}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 165, 'gust': 9.39}, 'clouds': {'all': 20}, 'dt': 1643725615, 'sys': {'type': 2, 'id': 2018252, 'country': 'BE', 'sunrise': 1643700317, 'sunset': 1643733452}, 'timezone': 3600, 'id': 2800931, 'name': 'Eernegem', 'cod': 200}
 Temperatuur in Eernegem op 2022-02-01 15:26:55 is 10.61 graden Celcius
 ```
