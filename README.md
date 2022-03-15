@@ -208,10 +208,6 @@ Temperatuur in Eernegem op 2022-02-01 15:26:55 is 10.61 graden Celcius
 
 ![ESP8266 Wemos D1 mini](Images/WEMOS_D1_MINI.jpg)
 
-4. PiJuice UPS:
-
-![PiJuice](Images/PiJuice_HAT.png)
-
 ## Nuttige commando's
 | Command | Description |
 | --- | --- |
