@@ -122,7 +122,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Wireshark netwerk tracing tool: 
    * Instructies hiervoor zijn beschikbaar op  [Project: Installing Wireshark on Raspberry Pi](https://unboxing-tomorrow.com/project-installing-wireshark-on-raspberry-pi/).
 3. *PiJuice* Uninterruptible Power Supply (UPS) die er voor zorgt dat je Pi altijd stroom heeft.
-4. Overschakelen naar mobiel data GSM netwerk indien Wifi internet weggevallen is. Implementatie op [Huawei E8372h-153 - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png). 
+4. Tijdelijk overschakelen naar GSM mobile data netwerk(4G) indien Wifi internet weggevallen is. Implementatie gebaseerd op beschikbare [Huawei E8372h-153 - 4G Dongle](Images/Huawei_E8372h-153-4G_Dongle.png). 
 ## Software
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
