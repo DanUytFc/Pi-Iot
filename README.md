@@ -37,9 +37,11 @@ De implementatie vereist 2 Raspberry Pi boards:
 >**Raspberry Pi 2 Model B Rev 1.1: installatie thuis**
 
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS***. 
-1. Schakel energiebesparende scherm functies uit. Dit is noodzakelijk bij gebruik in het leslokaar. Anders blokkeert het scherm en is een reboot noodzakelijk. Raadpleeg de [log file](Logs/Energiebesparende_functies_logfile.txt) voor meer details. 
+1. Configureer remote connectie met RealVNC Viewer:
+  * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(3.d Netwerktoegang)*. Link de VNC Connect account via *Licensing* met de Raspberry Pi voor connectiviteit buiten het lokale netwerk. 
+2. Schakel energiebesparende scherm functies uit. Dit is noodzakelijk bij gebruik in het leslokaar. Anders blokkeert het scherm en is een reboot noodzakelijk. Raadpleeg de [log file](Logs/Energiebesparende_functies_logfile.txt) voor meer details. 
 
-2. Installatie [Home Assistant](https://www.home-assistant.io): 
+3. Installatie [Home Assistant](https://www.home-assistant.io): 
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
      * Home Assistant openen met Raspberry Chromium browser op [URL](http://RPIDanUyt.local:8123).
        - *Beperking:* Home Assistant app remote toegang is enkel mogelijk via Home Assistant Cloud abonnement. 
@@ -98,7 +100,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
        homeassistant.components.mqtt: debug
    ```
 
-3. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
+4. Connecteer Raspberry Pi Model B Rev 1.1 met de *Tuya Smart Life* app [Connect a Raspberry Pi to the Cloud Using Link SDK](https://developer.tuya.com/en/demo/link-sdk-demo-raspberry-pi). Raadpleeg de [log file](Logs/Pi-Iot_BEK38_logfile.txt) voor meer details. 
    * Tuya product *Pi-Iot BEK38*.
       - [ ] *Beperking:* complexe notificaties, zoals MQTT device offline, enkel mogelijk met een Premium upgrade.
 
@@ -109,7 +111,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
       client.push_dps({'102': True})
       ```
 
-4. [Installeer Arduino IDE op Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/) om de ESP8266 te programeren. Deze IDE wordt eveneens op de iMac geinstalleerd. Raadpleeg de *log file* voor meer details. 
+5. [Installeer Arduino IDE op Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/) om de ESP8266 te programeren. Deze IDE wordt eveneens op de iMac geinstalleerd. Raadpleeg de *log file* voor meer details. 
 
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
