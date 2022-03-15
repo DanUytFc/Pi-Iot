@@ -117,9 +117,10 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 6. Gratis MQTT cloud broker voor communicatie tussen *Raspberry Pi* en *ESP8266*: 
    * [HiveMQ Cloud](https://console.hivemq.cloud/?utm_source=hivemq-com&utm_medium=cloud-broker-page&utm_campaign=cloud) Raspberry Python en Arduino IDE using ESP8266 client installatie. Raadpleeg [log file](Logs/mqtt_client.txt) voor meer details.
+   * "your_password" aanpassen.
 
    ```ruby
-   "your_password" aanpassen in mqtt_client.py. Login naam is reeds automatisch ingevuld.
+   
    mqtt_client.py: Raspberry Pi 
    # set username and password
    client.username_pw_set("your_login", "your_password")
