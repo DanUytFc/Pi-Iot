@@ -134,11 +134,9 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
-1. Slimme thermostaat Vaillant vSmart: uitzetten manuele mode iedere avond om 22:00. Raadpleeg het [Python script](Sources/vSmart_Manual_Disable.py) voor meer details. 
+1. Slimme thermostaat Vaillant vSmart: uitzetten manuele mode iedere avond om 22:00. Raadpleeg het [Python script](Sources/vSmart_Manual_Disable.py) en log file voor meer details. 
+
 >Sla je aparte bestanden op in deze repository.
-
-
-
 ## Uitbreidingen
 1. Wifi repeater geconfigureerd als router van wlan0(ingebouwde interface) naar wlan1(USB-C dongle). Encryptie WPA2 met een nieuwe SSID(verborgen):
    * Als leidraad kun je de instructies uit de cursus *RASPBERRY Pi - DEEL 1(4.f Wireless Access Point)* gebruiken. 
