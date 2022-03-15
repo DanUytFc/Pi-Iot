@@ -141,7 +141,8 @@ list_files = subprocess.run(["ls", "-l"])
 print("The exit code was: %d" % list_files.returncode)
 ```
 
-6. Notificatie via [IFTTT ](https://ifttt.com/explore) met verschillende values voor power of internet outage.
+5. Notificatie via [IFTTT ](https://ifttt.com/explore) met verschillende values voor power of internet outage.
+6. Een *pip3 deployment package* van je eigen code. 
 ## Software
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
