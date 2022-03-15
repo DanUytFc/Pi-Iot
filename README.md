@@ -37,8 +37,9 @@ De implementatie vereist 2 Raspberry Pi boards:
 >**Raspberry Pi 2 Model B Rev 1.1: installatie thuis**
 
 Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry Pi OS***. 
-1. Configureer remote connectie met RealVNC Viewer:
-  * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(3.d Netwerktoegang)*. Link de VNC Connect account via *Licensing* met de Raspberry Pi voor connectiviteit buiten het lokale netwerk. 
+1. Configureer een remote connectie met *RealVNC Viewer*:
+   * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(3.d Netwerktoegang)*. 
+     * Link de VNC Connect account via *Licensing* met de Raspberry Pi voor connectiviteit buiten het lokale netwerk. 
 2. Schakel energiebesparende scherm functies uit. Dit is noodzakelijk bij gebruik in het leslokaar. Anders blokkeert het scherm en is een reboot noodzakelijk. Raadpleeg de [log file](Logs/Energiebesparende_functies_logfile.txt) voor meer details. 
 
 3. Installatie [Home Assistant](https://www.home-assistant.io): 
