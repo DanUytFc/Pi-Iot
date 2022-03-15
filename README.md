@@ -122,7 +122,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Wireshark netwerk tracing tool: 
    * Instructies hiervoor zijn beschikbaar op  [Project: Installing Wireshark on Raspberry Pi](https://unboxing-tomorrow.com/project-installing-wireshark-on-raspberry-pi/).
 3. *PiJuice* Uninterruptible Power Supply (UPS) die er voor zorgt dat je Pi altijd stroom heeft.
->Noteer hier uitbreidingen die na de implementatie van de initiële scope zullen behandeld worden. 
+>Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
 
