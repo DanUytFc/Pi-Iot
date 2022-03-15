@@ -127,7 +127,6 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    
    ```ruby    
    mqtt sketch: Arduino IDE
-   // Attempt to connect
    // Insert your password
    if (client->connect(clientId.c_str(), "your_login", "your_password")) {   
    ```     
