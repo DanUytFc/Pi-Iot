@@ -123,13 +123,13 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    mqtt_client.py: Raspberry Pi 
    # set username and password
    client.username_pw_set("your_login", "your_password")
-   ```  
    
-   ```ruby    
    mqtt sketch: Arduino IDE
    // Insert your password
    if (client->connect(clientId.c_str(), "your_login", "your_password")) {   
    ```     
+   
+   
       
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
 ## Eigen scripts en programma's
