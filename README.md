@@ -146,6 +146,30 @@ print("The exit code was: %d" % list_files.returncode)
 5. Notificatie via [IFTTT ](https://ifttt.com/explore) met verschillende values voor power of internet outage.
 6. Een *pip3 deployment package* van je eigen code. 
 7. [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
+
+```
+import requests
+
+# Basic information
+response=requests.get('http://192.168.36.151/api')
+
+print("Basic information:")
+print(response.text)
+
+#Recent measurement
+response=requests.get('http://192.168.36.151/api/v1/data')
+
+print("Recent measurement:")
+print(response.text)
+```
+
+```
+Basic information:
+{"product_type":"SDM230-wifi","product_name":"KWh meter","serial":"3c39e723cab2","firmware_version":"2.11","api_version":"v1"}
+Recent measurement:
+{"wifi_ssid":"frodoWLANA","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
+```
+
 ## Software
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
