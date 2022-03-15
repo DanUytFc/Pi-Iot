@@ -170,6 +170,29 @@ Recent measurement:
 {"wifi_ssid":"WifiSSID","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
 ```
 
+8. Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api).
+
+```
+import urllib.request, json
+import datetime
+
+# openweathermap API key 
+key = "a5d0fd1eb06b0df07397fdb4966f4426"
+plaats = "Eernegem"
+url = "http://api.openweathermap.org/data/2.5/weather?q=" + plaats + "&appid=" + key + "&units=metric"
+response = urllib.request.urlopen(url)
+data = json.loads(response.read())
+temp = data['main']['temp']
+temp2 = data['dt']
+print (data)
+print ('Temperatuur in %s op %s is %s graden Celcius' % (plaats, datetime.datetime.fromtimestamp(temp2), temp))
+```
+
+```
+{'coord': {'lon': 3.027, 'lat': 51.1296}, 'weather': [{'id': 801, 'main': 'Clouds', 'description': 'few clouds', 'icon': '02d'}], 'base': 'stations', 'main': {'temp': 10.61, 'feels_like': 9.87, 'temp_min': 7.97, 'temp_max': 12.23, 'pressure': 1016, 'humidity': 82}, 'visibility': 10000, 'wind': {'speed': 4.47, 'deg': 165, 'gust': 9.39}, 'clouds': {'all': 20}, 'dt': 1643725615, 'sys': {'type': 2, 'id': 2018252, 'country': 'BE', 'sunrise': 1643700317, 'sunset': 1643733452}, 'timezone': 3600, 'id': 2800931, 'name': 'Eernegem', 'cod': 200}
+Temperatuur in Eernegem op 2022-02-01 15:26:55 is 10.61 graden Celcius
+```
+
 ## Software
 >Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
