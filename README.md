@@ -119,8 +119,8 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * [HiveMQ Cloud](https://console.hivemq.cloud/?utm_source=hivemq-com&utm_medium=cloud-broker-page&utm_campaign=cloud) Raspberry Python en Arduino IDE using ESP8266 client installatie. Raadpleeg [log file](Logs/mqtt_client.txt) voor meer details.
 
    ```ruby
+   "your_password" aanpassen in mqtt_client.py. Login naam is reeds automatisch ingevuld.
    mqtt_client.py: Raspberry Pi 
-   # "your_password" aanpassen in mqtt_client.py. Login naam is reeds automatisch ingevuld. 
    # set username and password
    client.username_pw_set("your_login", "your_password")
    ```  
@@ -129,7 +129,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    mqtt sketch: Arduino IDE
    // Attempt to connect
    // Insert your password
-   if (client->connect(clientId.c_str(), "DanUytFc", "your_password")) {   
+   if (client->connect(clientId.c_str(), "your_login", "your_password")) {   
    ```     
       
 >Noteer eveneens welke aanpassingen je aan welke configuratiebestanden je hebt doorgevoerd.
