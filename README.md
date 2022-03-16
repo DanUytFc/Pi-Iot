@@ -167,9 +167,8 @@ print("The exit code was: %d" % list_files.returncode)
 # uhubctl gebruiken om USB poorten te (des)-activeren. 
 ```
 
-5. Notificatie via [IFTTT ](https://ifttt.com/explore) met verschillende values voor power of internet outage.
-6. Een *pip3 deployment package* van je eigen code. 
-7. [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
+5. Een *pip3 deployment package* van je eigen code. 
+6. [HomeWizard Energy vermogenmeter(HWE-SDM230) lokale API](https://energy.homewizard.net/nl/support/solutions/articles/19000117051-homewizard-energy-lokale-api). 
 
 ```ruby
 import requests
@@ -194,7 +193,7 @@ Recent measurement:
 {"wifi_ssid":"WifiSSID","wifi_strength":66,"total_power_import_t1_kwh":389.422,"total_power_export_t1_kwh":0,"active_power_w":198.795,"active_power_l1_w":198.795}
 ```
 
-8. Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api).
+7. Lokale temperatuur opvragen online via [OpenWeatherMap API](https://openweathermap.org/api).
 
 ```ruby
 import urllib.request, json
