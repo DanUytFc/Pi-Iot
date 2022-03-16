@@ -43,6 +43,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 2. Schakel energiebesparende scherm functies uit. Dit is noodzakelijk bij gebruik in het leslokaar. Anders blokkeert het scherm en is een reboot noodzakelijk. Raadpleeg de [log file](Logs/Energiebesparende_functies_logfile.txt) voor meer details. 
 
 3. Installatie [Home Assistant](https://www.home-assistant.io): 
+   - [ ] MQTT in HA.
    * Hierbij volg ik de instructies uit de cursus *RASPBERRY Pi - DEEL 1(5.c Domotica)*. Raadpleeg de [log file](Logs/Home_Assitant_logfile.txt) voor meer details. 
      * Home Assistant openen met Raspberry Chromium browser op [URL](http://RPIDanUyt.local:8123).
        - *Beperking:* Home Assistant app remote toegang is enkel mogelijk via Home Assistant Cloud abonnement. 
@@ -66,7 +67,6 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
    * [Raspberry Pi Power Supply Checker](https://www.home-assistant.io/integrations/rpi_power). 
       - [ ] Hoe gebeurd de configuratie? Geen entry in de */home/homeassistant/.homeassistant/configuration.yaml* file.
    * [Brother Printer](https://www.home-assistant.io/integrations/brother) en [Internet Printing Protocol(IPP)](https://www.home-assistant.io/integrations/ipp) integratie. Automatische discovery en configuratie voor 'out-of-paper' detectie. 
-   - [ ] MQTT in HA.
 
    **/home/homeassistant/.homeassistant/configuration.yaml**
 
@@ -115,6 +115,7 @@ Dit project zal geimplementeerd worden op de meest recente ***Bullseye Raspberry
 
 5. [Installeer Arduino IDE op Raspberry Pi](https://www.raspberrypi-spy.co.uk/2020/12/install-arduino-ide-on-raspberry-pi/) om de ESP8266 te programeren. Voeg support toe voor het ESP8266 board. Raadpleeg de [log file](Logs/Arduino_IDE.txt) voor meer details. 
    * Deze IDE wordt eveneens op de iMac geinstalleerd voor het gebruiksgemak en snelheid. Hierbij moet de [CH340/CH341 USB to serial port MAC OS driver](http://www.wch-ic.com/downloads/CH341SER_MAC_ZIP.html) geactiveerd worden voor communicatie tussen iMac en ESP8266. 
+     - [ ] IFTTT on ESP826. 
 
 6. MQTT cloud broker voor communicatie tussen *Raspberry Pi* en *ESP8266*: 
    * [HiveMQ Cloud](https://console.hivemq.cloud/?utm_source=hivemq-com&utm_medium=cloud-broker-page&utm_campaign=cloud) Raspberry Python en Arduino IDE using ESP8266 client installatie. Raadpleeg [log file](Logs/mqtt_client.txt) voor meer details.
