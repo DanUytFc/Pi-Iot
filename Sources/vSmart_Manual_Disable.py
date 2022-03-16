@@ -1,5 +1,9 @@
 import requests, json
 from datetime import timedelta
+import requests
+
+def push_to_ifttt(ifttt_name, api_key, notification):
+    requests.post(url = 'https://maker.ifttt.com/trigger/{}/with/key/{}'.format(ifttt_name, api_key), data = {'value1':notification})
 
 # Netatmo vSmart authentication
 url = 'https://app.netatmo.net/oauth2/token'
@@ -65,7 +69,9 @@ apiResponse = requests.post(url, data = messageBody)
 if not apiResponse.ok:
 	print('Netatmo Connect setminormode API returned: %s' % (apiResponse.status_code))
 	print('vSmart disable manual mode disable: fail')
+	push_to_ifttt("GFevent", "dg_jwCBCwT0ENLlpJhATiqKuopQFH1FAFZTHdA0Ub2R", "vSmart: Fail")
 	exit(1)
 else: 
 	print('vSmart disable manual mode: success')
+	push_to_ifttt("GFevent", "dg_jwCBCwT0ENLlpJhATiqKuopQFH1FAFZTHdA0Ub2R", "vSmart: Success")
 	exit(0)
