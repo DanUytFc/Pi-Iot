@@ -19,8 +19,8 @@ Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worde
   # installeer Python 3 virtuele omgeving specifiek voor onze applicatie
   sudo apt-get install python3-venv
   # installatie directory
-  mkdir RPI-GF
-  cd RPI-GF
+  mkdir outage-detector
+  cd outage-detector
   # creatie virtuele omgeving
   python3 -m venv GF
   # activeer virtuele omgeving
