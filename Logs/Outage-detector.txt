@@ -1,4 +1,3 @@
-pi@RPIVdlUyt:~/python-paho-hivemq-cloud $ cd
 pi@RPIVdlUyt:~ $ sudo apt-get update
 Geraakt:1 http://archive.raspberrypi.org/debian bullseye InRelease
 Ophalen:2 http://raspbian.raspberrypi.org/raspbian bullseye InRelease [15,0 kB]
@@ -18,13 +17,6 @@ python3-venv is reeds de nieuwste versie (3.9.2-3).
 0 opgewaardeerd, 0 nieuw geïnstalleerd, 0 te verwijderen en 0 niet opgewaardeerd.
 pi@RPIVdlUyt:~ $ mkdir outage-detector
 pi@RPIVdlUyt:~ $ cd outage-detector/
-pi@RPIVdlUyt:~/outage-detector $ python3 -m venv outage-detector
-pi@RPIVdlUyt:~/outage-detector $ ls -al
-totaal 12
-drwxr-xr-x  3 pi pi 4096  4 apr 14:25 .
-drwxr-xr-x 22 pi pi 4096  4 apr 14:22 ..
-drwxr-xr-x  6 pi pi 4096  4 apr 14:25 outage-detector
-pi@RPIVdlUyt:~/outage-detector $ rm -r outage-detector/
 pi@RPIVdlUyt:~/outage-detector $ python3 -m venv Pi-Iot
 pi@RPIVdlUyt:~/outage-detector $ ls -al
 totaal 12
@@ -85,8 +77,6 @@ Collecting pycparser
      |████████████████████████████████| 119 kB 327 kB/s 
 Installing collected packages: pycparser, cffi, urllib3, six, jeepney, idna, cryptography, chardet, certifi, websocket-client, secretstorage, requests, python-magic, python-dateutil, python-crontab, pushbullet.py, keyrings.alt, keyring, Outage-Detector
 Successfully installed Outage-Detector-1.1.2 certifi-2019.9.11 cffi-1.15.0 chardet-3.0.4 cryptography-36.0.2 idna-2.8 jeepney-0.8.0 keyring-20.0.1 keyrings.alt-3.2.0 pushbullet.py-0.11.0 pycparser-2.21 python-crontab-2.4.2 python-dateutil-2.8.2 python-magic-0.4.15 requests-2.22.0 secretstorage-3.3.1 six-1.13.0 urllib3-1.25.6 websocket-client-0.56.0
-(Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ outage-detector --init
-bash: outage-detector: opdracht niet gevonden
 (Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ outage_detector --init
 /home/pi/outage-detector/Pi-Iot/lib/python3.9/site-packages/secretstorage/util.py:46: UserWarning: Passing unwrap= to .send_and_get_reply() is deprecated and will break in a future version of Jeepney.
   return self._connection.send_and_get_reply(msg, unwrap=True)
@@ -95,18 +85,9 @@ Would you like to be alerted of an outage through a notification on your phone, 
 Input your IFTTT event name: GFevent
 Input your IFTTT API key: 
 Trying to send a notification through IFTTT!
-Did you get the notification? (y/n) n
-Check to make sure you followed the steps correctly and try again.
-Input your IFTTT event name: GFevent
-Input your IFTTT API key: 
-Trying to send a notification through IFTTT!
 Did you get the notification? (y/n) y
 Enter a description of the run location (used to tell you in the ifttt where the outage happened): VDL30
 Would you like to setup the script to run automatically (it will run at boot time and at 5 minute intervals)? (y/n)y
-(Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ 
-(Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ 
-(Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ 
-(Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ 
 (Pi-Iot) pi@RPIVdlUyt:~/outage-detector $ pip3 install Outage-Detector --upgrade
 /home/pi/outage-detector/Pi-Iot/lib/python3.9/site-packages/secretstorage/util.py:46: UserWarning: Passing unwrap= to .send_and_get_reply() is deprecated and will break in a future version of Jeepney.
   return self._connection.send_and_get_reply(msg, unwrap=True)
