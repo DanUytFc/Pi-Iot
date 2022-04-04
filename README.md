@@ -22,9 +22,9 @@ Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worde
   mkdir outage-detector
   cd outage-detector
   # creatie virtuele omgeving
-  python3 -m venv GF
+  python3 -m venv Pi-Iot
   # activeer virtuele omgeving
-  . GF/bin/activate
+  . Pi-Iot/bin/activate
   ```
   
 - [ ] Notificaties worden naar iOS Tuya Smart Life/IFTTT app en Smartwatch gestuurd. 
