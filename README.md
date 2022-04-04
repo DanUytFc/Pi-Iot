@@ -14,8 +14,8 @@ Binnen de scope van dit project moeten volgende doeleinden geimplementeerd worde
   * YouTube video [How to Detect Power & Internet Outages With My Raspberry Pi Python Project](https://www.youtube.com/watch?v=Tj0mNO3ZDao/) wordt als referentie gebruikt. Hierin staan commando's die moeten uitgevoerd worden vóór de installatie. De reacties op de video bevatten eveneens extra informatie of aanpassingen. Hierna wordt de installatie verder gezet op basis van [Outage-Detector](https://github.com/fabytm/Outage-Detector/) gelinkt aan het YouTube referentie video. 
 
   ```ruby
-  sudo apt update
-  sudo apt full-upgrade
+  sudo apt-get update
+  sudo apt-get full-upgrade
   # installeer Python 3 virtuele omgeving specifiek voor onze applicatie
   sudo apt-get install python3-venv
   # installatie directory
