@@ -1,6 +1,6 @@
 ![Pi-Iot_Architecture](Images/Pi-Iot_Architecture2.png)
 # Pi-Iot
-## Beschrijving
+## Omschrijving
 Meten en opvolgen van het energieverbruik en opbrengst is gloeiend actueel. Dit geldt zowel voor thuis als op afstand zoals tweede verblijf. 
 
 Dit project implementeerd een *framework* voor ***energy analyse*** gebaseerd op een Raspberry ***Pi-Iot*** oplossing. Het kreeg als bijnaam 'Pilot'.
@@ -216,8 +216,6 @@ print ('Temperatuur in %s op %s is %s graden Celcius' % (plaats, datetime.dateti
 Temperatuur in Eernegem op 2022-02-01 15:26:55 is 10.61 graden Celcius
 ```
 
-## Software
->Noteer hier uitbreidingen die na de implementatie van de initiële scope kunnen behandeld worden. 
 ## Afbeeldingen
 1.  Raspberry Pi 2 Model B Rev 1.1:
 
